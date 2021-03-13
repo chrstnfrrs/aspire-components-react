@@ -1,0 +1,14 @@
+{
+  "roots": ["."],
+  "preset": "ts-jest",
+  "verbose": true,
+  "transform": {
+    "^.+\\.(ts|tsx)$": "ts-jest",
+    "^.+\\.jsx?$": "babel-jest"
+  },
+  "moduleNameMapper": {
+    "\\.(css|scss)$": "identity-obj-proxy"
+  },
+  "moduleFileExtensions": ["js", "jsx", "ts", "tsx"],
+  "testPathIgnorePatterns": ["node_modules/", "build/"]
+}
