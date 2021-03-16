@@ -18,5 +18,5 @@
       "statements": 100
     }
   },
-  "testPathIgnorePatterns": ["node_modules/", "build/", "test/snapshots"]
+  "testPathIgnorePatterns": ["node_modules/", "build/"]
 }
