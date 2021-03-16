@@ -10,8 +10,10 @@ module.exports = {
     sourceType: 'module', // Allow imports
   },
   rules: {
+    'eslint-comments/no-unlimited-disable': 'off',
     'no-use-before-define': 'off', // React imports have an error to due version mismatches in packages
     'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.jsx'] }], // Allow JSX is TSX Files
+    'unicorn/no-abusive-eslint-disable': 'off',
   },
   settings: {
     'import/resolver': {
