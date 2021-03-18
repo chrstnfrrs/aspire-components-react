@@ -1,4 +1,6 @@
-export const JUSTIFY_FACTORY = [
+const ALIGN_FACTORY = ['start', 'end', 'center', 'stretch', 'baseline'];
+
+const JUSTIFY_FACTORY = [
   'start',
   'end',
   'center',
@@ -7,4 +9,4 @@ export const JUSTIFY_FACTORY = [
   'evenly',
 ];
 
-export const ALIGN_FACTORY = ['start', 'end', 'center', 'stretch', 'baseline'];
+export { ALIGN_FACTORY, JUSTIFY_FACTORY };
