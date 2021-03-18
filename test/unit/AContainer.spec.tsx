@@ -1,7 +1,7 @@
 import AContainer from '../../src/AContainer/AContainer';
 import { ALIGN_FACTORY, JUSTIFY_FACTORY } from '../enums/factories';
 
-import { testComponent } from './utils/testComponent';
+import { testComponent } from './utils/test-component';
 
 describe('Given AContainer component is used', () => {
   const AContainerProps = {
