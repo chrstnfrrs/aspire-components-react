@@ -1,28 +1,37 @@
 /* eslint-disable */
 // @ts-ignore
-export type ALLOW_ANY = any;
+type ALLOW_ANY = any;
 /* eslint-enable */
 
-export interface IMapOfPropType {
+interface IMapOfPropType {
   [propName: string]: string[];
 }
 
-export interface IMapOfProps {
+interface IMapOfProps {
   [propType: string]: IMapOfPropType;
 }
 
-export interface IMapOfTestPropType {
+interface IMapOfTestPropType {
   [key: string]: ITestPropType;
 }
 
-export type ITestComponent = (
+type ITestComponent = (
   Component: React.FC,
   name: string,
   mapOfFactories: IMapOfProps,
 ) => void;
 
-export type ITestPropType = (
+type ITestPropType = (
   Component: React.FC,
   name: string,
   mapOfFactories: IMapOfPropType,
 ) => void;
+
+export {
+  ALLOW_ANY,
+  IMapOfPropType,
+  IMapOfProps,
+  IMapOfTestPropType,
+  ITestComponent,
+  ITestPropType,
+};
