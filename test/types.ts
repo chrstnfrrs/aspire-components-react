@@ -11,10 +11,6 @@ interface IMapOfProps {
   [propType: string]: IMapOfPropType;
 }
 
-interface IMapOfTestPropType {
-  [key: string]: ITestPropType;
-}
-
 type ITestComponent = (
   Component: React.FC,
   name: string,
@@ -26,6 +22,10 @@ type ITestPropType = (
   name: string,
   mapOfFactories: IMapOfPropType,
 ) => void;
+
+interface IMapOfTestPropType {
+  [key: string]: ITestPropType;
+}
 
 export {
   ALLOW_ANY,
