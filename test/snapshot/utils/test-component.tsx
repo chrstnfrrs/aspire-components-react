@@ -16,7 +16,7 @@ export const testComponent: ITestComponent = (Component, name, mapOfProps) => {
     beforeEach(() => {
       tree = renderer.create(<Component>{name}</Component>).toJSON();
     });
-    test('Then the only class should be a-container ', () => {
+    test('Then the only class should be a-container', () => {
       expect(tree).toMatchSnapshot();
     });
   });
