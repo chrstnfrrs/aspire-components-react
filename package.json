@@ -23,7 +23,7 @@
     "build": "rollup -c",
     "build:clean": "rm -rf build/ && rollup -c",
     "coverage": "jest --config='test/unit/jest.config.json' --collectCoverage",
-    "lint": "eslint './**/*.ts' --ignore-pattern '/node_modules/' --ignore-pattern '/build/' --ignore-pattern '/coverage/'",
+    "lint": "eslint './**/*.{ts,tsx}' --ignore-pattern '/node_modules/' --ignore-pattern '/build/' --ignore-pattern '/coverage/'",
     "pre-commit": "yarn prettier",
     "prettier": "prettier --write .",
     "test": "jest --config='jest.config.json'",
