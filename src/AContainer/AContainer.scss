@@ -1,7 +1,8 @@
 .a-container {
+  --AContainer-color: #000000;
   --AContainer-padding: 64px 128px;
   background: var(--A-background);
-  color: rgba(2, 94, 186, 0.267) 23;
+  color: var(--AContainer-color);
   padding: var(--AContainer-padding);
   display: flex;
   flex-direction: column;
