@@ -1,5 +1,5 @@
 {
-  "roots": ["./test"],
+  "roots": ["test"],
   "preset": "ts-jest",
   "verbose": true,
   "transform": {
@@ -18,5 +18,6 @@
       "statements": 100
     }
   },
-  "testPathIgnorePatterns": ["node_modules/", "build/"]
+  "collectCoverageFrom": ["src/**/{!(ignore-me),}.[jt]s?(x)"],
+  "testPathIgnorePatterns": ["node_modules/", "build/", "test/snapshot/"]
 }

@@ -22,13 +22,13 @@
   "scripts": {
     "build": "rollup -c",
     "build:clean": "rm -rf build/ && rollup -c",
-    "coverage": "jest --config='test/unit/jest.config.json' --collectCoverage",
+    "coverage": "jest --config='jest.config.json' --collectCoverage",
     "lint": "eslint './**/*.{ts,tsx}' --ignore-pattern '/node_modules/' --ignore-pattern '/build/' --ignore-pattern '/coverage/'",
     "pre-commit": "yarn prettier",
     "prettier": "prettier --write .",
     "test": "jest --config='jest.config.json'",
     "snapshot": "jest --config='test/snapshot/jest.config.json'",
-    "unit": "jest --config='test/unit/jest.config.json'",
+    "implementation": "jest --config='jest.config.json'",
     "typeCheck": "tsc -p tsconfig.json",
     "verify": "yarn typeCheck && yarn prettier && yarn lint && yarn coverage && yarn snapshot && yarn build:clean"
   },
@@ -68,7 +68,7 @@
     "typescript": "^4.2.3"
   },
   "dependencies": {
-    "aspire-components-functions": "^0.0.3",
+    "aspire-components-functions": "^0.0.4",
     "aspire-components-scss": "^1.0.1",
     "clsx": "^1.1.1"
   },

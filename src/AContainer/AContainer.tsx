@@ -1,19 +1,18 @@
 import React from 'react';
 import clsx from 'clsx';
-import { setJustify, setAlign } from 'aspire-components-functions';
+import { setLayout } from 'aspire-components-functions';
 
-import { AContainerProps } from './AContainer.types';
+import { ILayoutComponent } from '../types';
 import './AContainer.scss';
 
-const AContainer: React.FC<AContainerProps> = (props) => {
-  const classList = [
-    props.className,
-    'a-container',
-    setJustify(props.justify),
-    setAlign(props.align),
-  ];
+const AContainer: React.FC<ILayoutComponent> = (props) => {
+  const classList = [props.className, 'a-container', ...setLayout(props)];
 
-  return <div className={clsx(classList)}>{props.children}</div>;
+  return (
+    <div className={clsx(classList)} style={props.style}>
+      {props.children}
+    </div>
+  );
 };
 
 export default AContainer;
