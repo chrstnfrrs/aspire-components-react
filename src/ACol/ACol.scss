@@ -1,0 +1,8 @@
+.a-col {
+  --ACol-color: #000000;
+  --ACol-padding: 0.5rem;
+  background: var(--A-background);
+  color: var(--ACol-color);
+  padding: var(--ACol-padding);
+  display: flex;
+}
