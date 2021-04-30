@@ -1,0 +1,8 @@
+.a-row {
+  --ARow-color: #000000;
+  --ARow-padding: 0.5rem;
+  background: var(--A-background);
+  color: var(--ARow-color);
+  padding: var(--ARow-padding);
+  display: flex;
+}
