@@ -5,6 +5,16 @@ import { ALLOW_ANY, ITestPropType } from '../../types';
 
 import { testClass } from './test-class';
 
+const hasMaterialClasses = (prop: string, key: string) => {
+  const materialColorProps = ['color', 'backgroundColor'];
+
+  if (materialColorProps.includes(prop) && /\d/u.test(key)) {
+    return true;
+  }
+
+  return false;
+};
+
 export const testFactory: ITestPropType = (Component, name, factoryMap) => {
   let result: ALLOW_ANY;
   let key: string;
@@ -13,6 +23,8 @@ export const testFactory: ITestPropType = (Component, name, factoryMap) => {
     describe.each(factoryMap[prop])(
       `When %s is passed into ${prop}`,
       (value) => {
+        let className: string;
+
         beforeEach(() => {
           const props = {
             [prop]: value,
@@ -20,10 +32,17 @@ export const testFactory: ITestPropType = (Component, name, factoryMap) => {
 
           key = value.split('.').join('_').split('/').join('__');
 
+          className = `${prop}-${key}`;
+
+          if (hasMaterialClasses(prop, key)) {
+            className = `md-${className}`;
+          }
+
           result = RTL.render(<Component {...props}>{name}</Component>);
         });
+
         test(`Then the class for ${value} should be present`, () => {
-          expect(testClass(result, `${prop}-${key}`)).toBe(true);
+          expect(testClass(result, className)).toBe(true);
         });
       },
     );
