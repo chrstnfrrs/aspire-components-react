@@ -1,4 +1,4 @@
-import AContainer from '../../src/AContainer/AContainer';
+import { AContainer } from '../../src/AContainer/AContainer';
 import { LAYOUT_FACTORIES } from '../enums/factories';
 
 import { testComponent } from './utils/test-component';

@@ -3,10 +3,10 @@ import clsx from 'clsx';
 import { setLayout } from 'aspire-components-functions';
 
 import { ILayoutComponent } from '../types';
-import './AContainer.scss';
+import './ARow.scss';
 
-const AContainer: React.FC<ILayoutComponent> = (props) => {
-  const classList = [props.className, 'a-container', ...setLayout(props)];
+const ARow: React.FC<ILayoutComponent> = (props) => {
+  const classList = [props.className, 'a-row', ...setLayout(props)];
 
   return (
     <div className={clsx(classList)} style={props.style}>
@@ -15,4 +15,4 @@ const AContainer: React.FC<ILayoutComponent> = (props) => {
   );
 };
 
-export { AContainer };
+export { ARow };
