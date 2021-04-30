@@ -15,4 +15,4 @@ const AContainer: React.FC<ILayoutComponent> = (props) => {
   );
 };
 
-export default AContainer;
+export { AContainer };
