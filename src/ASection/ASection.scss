@@ -1,0 +1,10 @@
+.a-section {
+  --ABox-padding: 0rem;
+  background: var(--A-background);
+  color: var(--A-color);
+  padding: var(--ACol-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
