@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "get-off-my-lawn",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {
+    "eslint-comments/no-unlimited-disable": "off",
+    "no-use-before-define": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
+    "unicorn/no-abusive-eslint-disable": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".d.ts", ".types.ts", ".ts", "tsx", "js", ".jsx"]
+      },
+      "typescript": {}
+    },
+    "react": {
+      "version": "detect"
+    }
+  }
+}
