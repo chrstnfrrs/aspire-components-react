@@ -20,8 +20,8 @@
     "react-dom": "^17.0.1"
   },
   "scripts": {
-    "build": "rollup -c",
-    "build:clean": "rm -rf build/ && rollup -c",
+    "build": "rollup -c rollup.config.ts",
+    "build:clean": "rm -rf build/ && yarn build",
     "coverage": "jest --config='jest.config.json' --collectCoverage",
     "lint": "eslint './**/*.{ts,tsx}' --ignore-pattern '/node_modules/' --ignore-pattern '/build/' --ignore-pattern '/coverage/'",
     "pre-commit": "yarn prettier",
