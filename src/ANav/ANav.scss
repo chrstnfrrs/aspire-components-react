@@ -1,0 +1,10 @@
+.a-nav {
+  background: var(--A-background);
+  color: var(--A-color);
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 4rem;
+}
