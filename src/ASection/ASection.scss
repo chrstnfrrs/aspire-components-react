@@ -1,8 +1,8 @@
 .a-section {
-  --ABox-padding: 0rem;
+  --ASection-padding: 0rem;
   background: var(--A-background);
   color: var(--A-color);
-  padding: var(--ACol-padding);
+  padding: var(--ASection-padding);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
