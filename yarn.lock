@@ -1786,10 +1786,10 @@ asn1@~0.2.3:
   dependencies:
     safer-buffer "~2.1.0"
 
-aspire-components-functions@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/aspire-components-functions/-/aspire-components-functions-0.0.4.tgz#1b5bb38b1fa06f24c97c6557aa65d174157fb97f"
-  integrity sha512-WX+GHuqtaHeGK83mGpuz2V5w5z4CCs+i2rMiSCWdDJeQiLm3rIWbtojKWYrC1M4QdA7tZXEAQoFkOCVleC/Akg==
+aspire-components-functions@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/aspire-components-functions/-/aspire-components-functions-0.0.5.tgz#a6dcbc58654f885fbf5f65efd8c6e3467a11eb4b"
+  integrity sha512-Voq8zJ6u7z0s310/0ZlUHix5kD1c5xB42Q/LDreas59v3PSwddBuelyQb/lTSNpx+ujl2JsJcQaCxmy0t6Vbrw==
 
 aspire-components-scss@^1.0.1:
   version "1.0.1"
