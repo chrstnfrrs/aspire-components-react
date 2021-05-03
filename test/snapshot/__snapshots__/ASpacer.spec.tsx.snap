@@ -1,0 +1,1937 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given ASpacer component is used When a developer uses ASpacer with a className Then the the class should be present 1`] = `
+<div
+  className="asdf a-spacer"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses ASpacer with no props Then the only class should be a-container 1`] = `
+<div
+  className="a-spacer"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0 Then the class padding-0 should be used 1`] = `
+<div
+  className="a-spacer padding-0"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0_5 Then the class padding-0_5 should be used 1`] = `
+<div
+  className="a-spacer padding-0_5"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0_5b Then the class padding-0_5b should be used 1`] = `
+<div
+  className="a-spacer padding-0_5b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0_5l Then the class padding-0_5l should be used 1`] = `
+<div
+  className="a-spacer padding-0_5l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0_5r Then the class padding-0_5r should be used 1`] = `
+<div
+  className="a-spacer padding-0_5r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0_5t Then the class padding-0_5t should be used 1`] = `
+<div
+  className="a-spacer padding-0_5t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0_5x Then the class padding-0_5x should be used 1`] = `
+<div
+  className="a-spacer padding-0_5x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0_5y Then the class padding-0_5y should be used 1`] = `
+<div
+  className="a-spacer padding-0_5y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0b Then the class padding-0b should be used 1`] = `
+<div
+  className="a-spacer padding-0b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0l Then the class padding-0l should be used 1`] = `
+<div
+  className="a-spacer padding-0l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0r Then the class padding-0r should be used 1`] = `
+<div
+  className="a-spacer padding-0r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0t Then the class padding-0t should be used 1`] = `
+<div
+  className="a-spacer padding-0t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0x Then the class padding-0x should be used 1`] = `
+<div
+  className="a-spacer padding-0x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 0y Then the class padding-0y should be used 1`] = `
+<div
+  className="a-spacer padding-0y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1 Then the class padding-1 should be used 1`] = `
+<div
+  className="a-spacer padding-1"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1_5 Then the class padding-1_5 should be used 1`] = `
+<div
+  className="a-spacer padding-1_5"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1_5b Then the class padding-1_5b should be used 1`] = `
+<div
+  className="a-spacer padding-1_5b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1_5l Then the class padding-1_5l should be used 1`] = `
+<div
+  className="a-spacer padding-1_5l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1_5r Then the class padding-1_5r should be used 1`] = `
+<div
+  className="a-spacer padding-1_5r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1_5t Then the class padding-1_5t should be used 1`] = `
+<div
+  className="a-spacer padding-1_5t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1_5x Then the class padding-1_5x should be used 1`] = `
+<div
+  className="a-spacer padding-1_5x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1_5y Then the class padding-1_5y should be used 1`] = `
+<div
+  className="a-spacer padding-1_5y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1b Then the class padding-1b should be used 1`] = `
+<div
+  className="a-spacer padding-1b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1l Then the class padding-1l should be used 1`] = `
+<div
+  className="a-spacer padding-1l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1r Then the class padding-1r should be used 1`] = `
+<div
+  className="a-spacer padding-1r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1t Then the class padding-1t should be used 1`] = `
+<div
+  className="a-spacer padding-1t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1x Then the class padding-1x should be used 1`] = `
+<div
+  className="a-spacer padding-1x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 1y Then the class padding-1y should be used 1`] = `
+<div
+  className="a-spacer padding-1y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2 Then the class padding-2 should be used 1`] = `
+<div
+  className="a-spacer padding-2"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2_5 Then the class padding-2_5 should be used 1`] = `
+<div
+  className="a-spacer padding-2_5"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2_5b Then the class padding-2_5b should be used 1`] = `
+<div
+  className="a-spacer padding-2_5b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2_5l Then the class padding-2_5l should be used 1`] = `
+<div
+  className="a-spacer padding-2_5l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2_5r Then the class padding-2_5r should be used 1`] = `
+<div
+  className="a-spacer padding-2_5r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2_5t Then the class padding-2_5t should be used 1`] = `
+<div
+  className="a-spacer padding-2_5t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2_5x Then the class padding-2_5x should be used 1`] = `
+<div
+  className="a-spacer padding-2_5x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2_5y Then the class padding-2_5y should be used 1`] = `
+<div
+  className="a-spacer padding-2_5y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2b Then the class padding-2b should be used 1`] = `
+<div
+  className="a-spacer padding-2b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2l Then the class padding-2l should be used 1`] = `
+<div
+  className="a-spacer padding-2l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2r Then the class padding-2r should be used 1`] = `
+<div
+  className="a-spacer padding-2r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2t Then the class padding-2t should be used 1`] = `
+<div
+  className="a-spacer padding-2t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2x Then the class padding-2x should be used 1`] = `
+<div
+  className="a-spacer padding-2x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 2y Then the class padding-2y should be used 1`] = `
+<div
+  className="a-spacer padding-2y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3 Then the class padding-3 should be used 1`] = `
+<div
+  className="a-spacer padding-3"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3_5 Then the class padding-3_5 should be used 1`] = `
+<div
+  className="a-spacer padding-3_5"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3_5b Then the class padding-3_5b should be used 1`] = `
+<div
+  className="a-spacer padding-3_5b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3_5l Then the class padding-3_5l should be used 1`] = `
+<div
+  className="a-spacer padding-3_5l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3_5r Then the class padding-3_5r should be used 1`] = `
+<div
+  className="a-spacer padding-3_5r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3_5t Then the class padding-3_5t should be used 1`] = `
+<div
+  className="a-spacer padding-3_5t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3_5x Then the class padding-3_5x should be used 1`] = `
+<div
+  className="a-spacer padding-3_5x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3_5y Then the class padding-3_5y should be used 1`] = `
+<div
+  className="a-spacer padding-3_5y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3b Then the class padding-3b should be used 1`] = `
+<div
+  className="a-spacer padding-3b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3l Then the class padding-3l should be used 1`] = `
+<div
+  className="a-spacer padding-3l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3r Then the class padding-3r should be used 1`] = `
+<div
+  className="a-spacer padding-3r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3t Then the class padding-3t should be used 1`] = `
+<div
+  className="a-spacer padding-3t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3x Then the class padding-3x should be used 1`] = `
+<div
+  className="a-spacer padding-3x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 3y Then the class padding-3y should be used 1`] = `
+<div
+  className="a-spacer padding-3y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 4 Then the class padding-4 should be used 1`] = `
+<div
+  className="a-spacer padding-4"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 4b Then the class padding-4b should be used 1`] = `
+<div
+  className="a-spacer padding-4b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 4l Then the class padding-4l should be used 1`] = `
+<div
+  className="a-spacer padding-4l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 4r Then the class padding-4r should be used 1`] = `
+<div
+  className="a-spacer padding-4r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 4t Then the class padding-4t should be used 1`] = `
+<div
+  className="a-spacer padding-4t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 4x Then the class padding-4x should be used 1`] = `
+<div
+  className="a-spacer padding-4x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 4y Then the class padding-4y should be used 1`] = `
+<div
+  className="a-spacer padding-4y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 5 Then the class padding-5 should be used 1`] = `
+<div
+  className="a-spacer padding-5"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 5b Then the class padding-5b should be used 1`] = `
+<div
+  className="a-spacer padding-5b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 5l Then the class padding-5l should be used 1`] = `
+<div
+  className="a-spacer padding-5l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 5r Then the class padding-5r should be used 1`] = `
+<div
+  className="a-spacer padding-5r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 5t Then the class padding-5t should be used 1`] = `
+<div
+  className="a-spacer padding-5t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 5x Then the class padding-5x should be used 1`] = `
+<div
+  className="a-spacer padding-5x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 5y Then the class padding-5y should be used 1`] = `
+<div
+  className="a-spacer padding-5y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 6 Then the class padding-6 should be used 1`] = `
+<div
+  className="a-spacer padding-6"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 6b Then the class padding-6b should be used 1`] = `
+<div
+  className="a-spacer padding-6b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 6l Then the class padding-6l should be used 1`] = `
+<div
+  className="a-spacer padding-6l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 6r Then the class padding-6r should be used 1`] = `
+<div
+  className="a-spacer padding-6r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 6t Then the class padding-6t should be used 1`] = `
+<div
+  className="a-spacer padding-6t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 6x Then the class padding-6x should be used 1`] = `
+<div
+  className="a-spacer padding-6x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 6y Then the class padding-6y should be used 1`] = `
+<div
+  className="a-spacer padding-6y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 7 Then the class padding-7 should be used 1`] = `
+<div
+  className="a-spacer padding-7"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 7b Then the class padding-7b should be used 1`] = `
+<div
+  className="a-spacer padding-7b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 7l Then the class padding-7l should be used 1`] = `
+<div
+  className="a-spacer padding-7l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 7r Then the class padding-7r should be used 1`] = `
+<div
+  className="a-spacer padding-7r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 7t Then the class padding-7t should be used 1`] = `
+<div
+  className="a-spacer padding-7t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 7x Then the class padding-7x should be used 1`] = `
+<div
+  className="a-spacer padding-7x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 7y Then the class padding-7y should be used 1`] = `
+<div
+  className="a-spacer padding-7y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 8 Then the class padding-8 should be used 1`] = `
+<div
+  className="a-spacer padding-8"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 8b Then the class padding-8b should be used 1`] = `
+<div
+  className="a-spacer padding-8b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 8l Then the class padding-8l should be used 1`] = `
+<div
+  className="a-spacer padding-8l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 8r Then the class padding-8r should be used 1`] = `
+<div
+  className="a-spacer padding-8r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 8t Then the class padding-8t should be used 1`] = `
+<div
+  className="a-spacer padding-8t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 8x Then the class padding-8x should be used 1`] = `
+<div
+  className="a-spacer padding-8x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 8y Then the class padding-8y should be used 1`] = `
+<div
+  className="a-spacer padding-8y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 9 Then the class padding-9 should be used 1`] = `
+<div
+  className="a-spacer padding-9"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 9b Then the class padding-9b should be used 1`] = `
+<div
+  className="a-spacer padding-9b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 9l Then the class padding-9l should be used 1`] = `
+<div
+  className="a-spacer padding-9l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 9r Then the class padding-9r should be used 1`] = `
+<div
+  className="a-spacer padding-9r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 9t Then the class padding-9t should be used 1`] = `
+<div
+  className="a-spacer padding-9t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 9x Then the class padding-9x should be used 1`] = `
+<div
+  className="a-spacer padding-9x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 9y Then the class padding-9y should be used 1`] = `
+<div
+  className="a-spacer padding-9y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 10 Then the class padding-10 should be used 1`] = `
+<div
+  className="a-spacer padding-10"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 10b Then the class padding-10b should be used 1`] = `
+<div
+  className="a-spacer padding-10b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 10l Then the class padding-10l should be used 1`] = `
+<div
+  className="a-spacer padding-10l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 10r Then the class padding-10r should be used 1`] = `
+<div
+  className="a-spacer padding-10r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 10t Then the class padding-10t should be used 1`] = `
+<div
+  className="a-spacer padding-10t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 10x Then the class padding-10x should be used 1`] = `
+<div
+  className="a-spacer padding-10x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 10y Then the class padding-10y should be used 1`] = `
+<div
+  className="a-spacer padding-10y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 11 Then the class padding-11 should be used 1`] = `
+<div
+  className="a-spacer padding-11"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 11b Then the class padding-11b should be used 1`] = `
+<div
+  className="a-spacer padding-11b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 11l Then the class padding-11l should be used 1`] = `
+<div
+  className="a-spacer padding-11l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 11r Then the class padding-11r should be used 1`] = `
+<div
+  className="a-spacer padding-11r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 11t Then the class padding-11t should be used 1`] = `
+<div
+  className="a-spacer padding-11t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 11x Then the class padding-11x should be used 1`] = `
+<div
+  className="a-spacer padding-11x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 11y Then the class padding-11y should be used 1`] = `
+<div
+  className="a-spacer padding-11y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 12 Then the class padding-12 should be used 1`] = `
+<div
+  className="a-spacer padding-12"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 12b Then the class padding-12b should be used 1`] = `
+<div
+  className="a-spacer padding-12b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 12l Then the class padding-12l should be used 1`] = `
+<div
+  className="a-spacer padding-12l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 12r Then the class padding-12r should be used 1`] = `
+<div
+  className="a-spacer padding-12r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 12t Then the class padding-12t should be used 1`] = `
+<div
+  className="a-spacer padding-12t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 12x Then the class padding-12x should be used 1`] = `
+<div
+  className="a-spacer padding-12x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 12y Then the class padding-12y should be used 1`] = `
+<div
+  className="a-spacer padding-12y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 14 Then the class padding-14 should be used 1`] = `
+<div
+  className="a-spacer padding-14"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 14b Then the class padding-14b should be used 1`] = `
+<div
+  className="a-spacer padding-14b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 14l Then the class padding-14l should be used 1`] = `
+<div
+  className="a-spacer padding-14l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 14r Then the class padding-14r should be used 1`] = `
+<div
+  className="a-spacer padding-14r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 14t Then the class padding-14t should be used 1`] = `
+<div
+  className="a-spacer padding-14t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 14x Then the class padding-14x should be used 1`] = `
+<div
+  className="a-spacer padding-14x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 14y Then the class padding-14y should be used 1`] = `
+<div
+  className="a-spacer padding-14y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 16 Then the class padding-16 should be used 1`] = `
+<div
+  className="a-spacer padding-16"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 16b Then the class padding-16b should be used 1`] = `
+<div
+  className="a-spacer padding-16b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 16l Then the class padding-16l should be used 1`] = `
+<div
+  className="a-spacer padding-16l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 16r Then the class padding-16r should be used 1`] = `
+<div
+  className="a-spacer padding-16r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 16t Then the class padding-16t should be used 1`] = `
+<div
+  className="a-spacer padding-16t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 16x Then the class padding-16x should be used 1`] = `
+<div
+  className="a-spacer padding-16x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 16y Then the class padding-16y should be used 1`] = `
+<div
+  className="a-spacer padding-16y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 20 Then the class padding-20 should be used 1`] = `
+<div
+  className="a-spacer padding-20"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 20b Then the class padding-20b should be used 1`] = `
+<div
+  className="a-spacer padding-20b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 20l Then the class padding-20l should be used 1`] = `
+<div
+  className="a-spacer padding-20l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 20r Then the class padding-20r should be used 1`] = `
+<div
+  className="a-spacer padding-20r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 20t Then the class padding-20t should be used 1`] = `
+<div
+  className="a-spacer padding-20t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 20x Then the class padding-20x should be used 1`] = `
+<div
+  className="a-spacer padding-20x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 20y Then the class padding-20y should be used 1`] = `
+<div
+  className="a-spacer padding-20y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 24 Then the class padding-24 should be used 1`] = `
+<div
+  className="a-spacer padding-24"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 24b Then the class padding-24b should be used 1`] = `
+<div
+  className="a-spacer padding-24b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 24l Then the class padding-24l should be used 1`] = `
+<div
+  className="a-spacer padding-24l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 24r Then the class padding-24r should be used 1`] = `
+<div
+  className="a-spacer padding-24r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 24t Then the class padding-24t should be used 1`] = `
+<div
+  className="a-spacer padding-24t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 24x Then the class padding-24x should be used 1`] = `
+<div
+  className="a-spacer padding-24x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 24y Then the class padding-24y should be used 1`] = `
+<div
+  className="a-spacer padding-24y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 28 Then the class padding-28 should be used 1`] = `
+<div
+  className="a-spacer padding-28"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 28b Then the class padding-28b should be used 1`] = `
+<div
+  className="a-spacer padding-28b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 28l Then the class padding-28l should be used 1`] = `
+<div
+  className="a-spacer padding-28l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 28r Then the class padding-28r should be used 1`] = `
+<div
+  className="a-spacer padding-28r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 28t Then the class padding-28t should be used 1`] = `
+<div
+  className="a-spacer padding-28t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 28x Then the class padding-28x should be used 1`] = `
+<div
+  className="a-spacer padding-28x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 28y Then the class padding-28y should be used 1`] = `
+<div
+  className="a-spacer padding-28y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 32 Then the class padding-32 should be used 1`] = `
+<div
+  className="a-spacer padding-32"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 32b Then the class padding-32b should be used 1`] = `
+<div
+  className="a-spacer padding-32b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 32l Then the class padding-32l should be used 1`] = `
+<div
+  className="a-spacer padding-32l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 32r Then the class padding-32r should be used 1`] = `
+<div
+  className="a-spacer padding-32r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 32t Then the class padding-32t should be used 1`] = `
+<div
+  className="a-spacer padding-32t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 32x Then the class padding-32x should be used 1`] = `
+<div
+  className="a-spacer padding-32x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 32y Then the class padding-32y should be used 1`] = `
+<div
+  className="a-spacer padding-32y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 36 Then the class padding-36 should be used 1`] = `
+<div
+  className="a-spacer padding-36"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 36b Then the class padding-36b should be used 1`] = `
+<div
+  className="a-spacer padding-36b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 36l Then the class padding-36l should be used 1`] = `
+<div
+  className="a-spacer padding-36l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 36r Then the class padding-36r should be used 1`] = `
+<div
+  className="a-spacer padding-36r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 36t Then the class padding-36t should be used 1`] = `
+<div
+  className="a-spacer padding-36t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 36x Then the class padding-36x should be used 1`] = `
+<div
+  className="a-spacer padding-36x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 36y Then the class padding-36y should be used 1`] = `
+<div
+  className="a-spacer padding-36y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 40 Then the class padding-40 should be used 1`] = `
+<div
+  className="a-spacer padding-40"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 40b Then the class padding-40b should be used 1`] = `
+<div
+  className="a-spacer padding-40b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 40l Then the class padding-40l should be used 1`] = `
+<div
+  className="a-spacer padding-40l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 40r Then the class padding-40r should be used 1`] = `
+<div
+  className="a-spacer padding-40r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 40t Then the class padding-40t should be used 1`] = `
+<div
+  className="a-spacer padding-40t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 40x Then the class padding-40x should be used 1`] = `
+<div
+  className="a-spacer padding-40x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 40y Then the class padding-40y should be used 1`] = `
+<div
+  className="a-spacer padding-40y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 44 Then the class padding-44 should be used 1`] = `
+<div
+  className="a-spacer padding-44"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 44b Then the class padding-44b should be used 1`] = `
+<div
+  className="a-spacer padding-44b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 44l Then the class padding-44l should be used 1`] = `
+<div
+  className="a-spacer padding-44l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 44r Then the class padding-44r should be used 1`] = `
+<div
+  className="a-spacer padding-44r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 44t Then the class padding-44t should be used 1`] = `
+<div
+  className="a-spacer padding-44t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 44x Then the class padding-44x should be used 1`] = `
+<div
+  className="a-spacer padding-44x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 44y Then the class padding-44y should be used 1`] = `
+<div
+  className="a-spacer padding-44y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 48 Then the class padding-48 should be used 1`] = `
+<div
+  className="a-spacer padding-48"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 48b Then the class padding-48b should be used 1`] = `
+<div
+  className="a-spacer padding-48b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 48l Then the class padding-48l should be used 1`] = `
+<div
+  className="a-spacer padding-48l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 48r Then the class padding-48r should be used 1`] = `
+<div
+  className="a-spacer padding-48r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 48t Then the class padding-48t should be used 1`] = `
+<div
+  className="a-spacer padding-48t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 48x Then the class padding-48x should be used 1`] = `
+<div
+  className="a-spacer padding-48x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 48y Then the class padding-48y should be used 1`] = `
+<div
+  className="a-spacer padding-48y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 52 Then the class padding-52 should be used 1`] = `
+<div
+  className="a-spacer padding-52"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 52b Then the class padding-52b should be used 1`] = `
+<div
+  className="a-spacer padding-52b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 52l Then the class padding-52l should be used 1`] = `
+<div
+  className="a-spacer padding-52l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 52r Then the class padding-52r should be used 1`] = `
+<div
+  className="a-spacer padding-52r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 52t Then the class padding-52t should be used 1`] = `
+<div
+  className="a-spacer padding-52t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 52x Then the class padding-52x should be used 1`] = `
+<div
+  className="a-spacer padding-52x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 52y Then the class padding-52y should be used 1`] = `
+<div
+  className="a-spacer padding-52y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 56 Then the class padding-56 should be used 1`] = `
+<div
+  className="a-spacer padding-56"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 56b Then the class padding-56b should be used 1`] = `
+<div
+  className="a-spacer padding-56b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 56l Then the class padding-56l should be used 1`] = `
+<div
+  className="a-spacer padding-56l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 56r Then the class padding-56r should be used 1`] = `
+<div
+  className="a-spacer padding-56r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 56t Then the class padding-56t should be used 1`] = `
+<div
+  className="a-spacer padding-56t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 56x Then the class padding-56x should be used 1`] = `
+<div
+  className="a-spacer padding-56x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 56y Then the class padding-56y should be used 1`] = `
+<div
+  className="a-spacer padding-56y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 60 Then the class padding-60 should be used 1`] = `
+<div
+  className="a-spacer padding-60"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 60b Then the class padding-60b should be used 1`] = `
+<div
+  className="a-spacer padding-60b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 60l Then the class padding-60l should be used 1`] = `
+<div
+  className="a-spacer padding-60l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 60r Then the class padding-60r should be used 1`] = `
+<div
+  className="a-spacer padding-60r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 60t Then the class padding-60t should be used 1`] = `
+<div
+  className="a-spacer padding-60t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 60x Then the class padding-60x should be used 1`] = `
+<div
+  className="a-spacer padding-60x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 60y Then the class padding-60y should be used 1`] = `
+<div
+  className="a-spacer padding-60y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 64 Then the class padding-64 should be used 1`] = `
+<div
+  className="a-spacer padding-64"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 64b Then the class padding-64b should be used 1`] = `
+<div
+  className="a-spacer padding-64b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 64l Then the class padding-64l should be used 1`] = `
+<div
+  className="a-spacer padding-64l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 64r Then the class padding-64r should be used 1`] = `
+<div
+  className="a-spacer padding-64r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 64t Then the class padding-64t should be used 1`] = `
+<div
+  className="a-spacer padding-64t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 64x Then the class padding-64x should be used 1`] = `
+<div
+  className="a-spacer padding-64x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 64y Then the class padding-64y should be used 1`] = `
+<div
+  className="a-spacer padding-64y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 72 Then the class padding-72 should be used 1`] = `
+<div
+  className="a-spacer padding-72"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 72b Then the class padding-72b should be used 1`] = `
+<div
+  className="a-spacer padding-72b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 72l Then the class padding-72l should be used 1`] = `
+<div
+  className="a-spacer padding-72l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 72r Then the class padding-72r should be used 1`] = `
+<div
+  className="a-spacer padding-72r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 72t Then the class padding-72t should be used 1`] = `
+<div
+  className="a-spacer padding-72t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 72x Then the class padding-72x should be used 1`] = `
+<div
+  className="a-spacer padding-72x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 72y Then the class padding-72y should be used 1`] = `
+<div
+  className="a-spacer padding-72y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 80 Then the class padding-80 should be used 1`] = `
+<div
+  className="a-spacer padding-80"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 80b Then the class padding-80b should be used 1`] = `
+<div
+  className="a-spacer padding-80b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 80l Then the class padding-80l should be used 1`] = `
+<div
+  className="a-spacer padding-80l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 80r Then the class padding-80r should be used 1`] = `
+<div
+  className="a-spacer padding-80r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 80t Then the class padding-80t should be used 1`] = `
+<div
+  className="a-spacer padding-80t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 80x Then the class padding-80x should be used 1`] = `
+<div
+  className="a-spacer padding-80x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 80y Then the class padding-80y should be used 1`] = `
+<div
+  className="a-spacer padding-80y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 96 Then the class padding-96 should be used 1`] = `
+<div
+  className="a-spacer padding-96"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 96b Then the class padding-96b should be used 1`] = `
+<div
+  className="a-spacer padding-96b"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 96l Then the class padding-96l should be used 1`] = `
+<div
+  className="a-spacer padding-96l"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 96r Then the class padding-96r should be used 1`] = `
+<div
+  className="a-spacer padding-96r"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 96t Then the class padding-96t should be used 1`] = `
+<div
+  className="a-spacer padding-96t"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 96x Then the class padding-96x should be used 1`] = `
+<div
+  className="a-spacer padding-96x"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in 96y Then the class padding-96y should be used 1`] = `
+<div
+  className="a-spacer padding-96y"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in an invalid value Then no padding class should be used 1`] = `
+<div
+  className="a-spacer"
+>
+  ASpacer
+</div>
+`;
+
+exports[`Given ASpacer component is used When a developer uses a factory prop type When a developer uses the padding prop When a developer passes in undefined Then no padding class should be used 1`] = `
+<div
+  className="a-spacer"
+>
+  ASpacer
+</div>
+`;
