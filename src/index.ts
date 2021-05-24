@@ -1,4 +1,5 @@
 import { ABox } from './ABox/ABox';
+import { ACard } from './ACard/ACard';
 import { ACol } from './ACol/ACol';
 import { AContainer } from './AContainer/AContainer';
 import { AForm } from './AForm/AForm';
@@ -10,4 +11,15 @@ import { ASpacer } from './ASpacer/ASpacer';
 
 import 'aspire-components-scss/build/index.scss';
 
-export { ABox, ACol, AContainer, AForm, AGrid, ANav, ARow, ASection, ASpacer };
+export {
+  ABox,
+  ACard,
+  ACol,
+  AContainer,
+  AForm,
+  AGrid,
+  ANav,
+  ARow,
+  ASection,
+  ASpacer,
+};
