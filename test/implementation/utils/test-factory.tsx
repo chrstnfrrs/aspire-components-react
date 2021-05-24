@@ -7,12 +7,13 @@ import { testClass } from './test-class';
 
 const hasMaterialClasses = (prop: string, key: string) => {
   const materialColorProps = ['color', 'backgroundColor'];
+  const materialProps = ['elevation'];
 
   if (materialColorProps.includes(prop) && /\d/u.test(key)) {
     return true;
   }
 
-  return false;
+  return materialProps.includes(prop);
 };
 
 export const testFactory: ITestPropType = (Component, name, factoryMap) => {
