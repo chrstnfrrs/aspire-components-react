@@ -1,0 +1,12 @@
+.a-card {
+  --ACard-padding: 0.25rem;
+  background: var(--A-background);
+  color: var(--A-color);
+  padding: var(--ACard-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 1px;
+  border: 1px solid black;
+}
