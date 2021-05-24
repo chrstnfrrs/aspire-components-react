@@ -1,3 +1,18 @@
+interface IElementComponent {
+  backgroundColor?: string;
+  className?: string;
+  color?: string;
+  height?: string;
+  margin?: string;
+  maxHeight?: string;
+  maxWidth?: string;
+  minHeight?: string;
+  minWidth?: string;
+  padding?: string;
+  style?: React.CSSProperties | undefined;
+  width?: string;
+}
+
 interface ILayoutComponent {
   align?: string;
   backgroundColor?: string;
@@ -17,4 +32,4 @@ interface ILayoutComponent {
   width?: string;
 }
 
-export { ILayoutComponent };
+export { IElementComponent, ILayoutComponent };
