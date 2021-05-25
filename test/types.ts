@@ -19,7 +19,6 @@ type ITestComponent = (
 
 type ITestPropType = (
   Component: React.FC,
-  name: string,
   mapOfFactories: IMapOfPropType,
 ) => void;
 
