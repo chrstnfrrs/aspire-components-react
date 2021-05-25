@@ -1816,6 +1816,96 @@ exports[`Given ALabel component is used When a developer uses a factory prop typ
 />
 `;
 
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 2xl Then the class fontSize-2xl should be used 1`] = `
+<label
+  className="a-label fontSize-2xl"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 3xl Then the class fontSize-3xl should be used 1`] = `
+<label
+  className="a-label fontSize-3xl"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 4xl Then the class fontSize-4xl should be used 1`] = `
+<label
+  className="a-label fontSize-4xl"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 5xl Then the class fontSize-5xl should be used 1`] = `
+<label
+  className="a-label fontSize-5xl"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 6xl Then the class fontSize-6xl should be used 1`] = `
+<label
+  className="a-label fontSize-6xl"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 7xl Then the class fontSize-7xl should be used 1`] = `
+<label
+  className="a-label fontSize-7xl"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 8xl Then the class fontSize-8xl should be used 1`] = `
+<label
+  className="a-label fontSize-8xl"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 9xl Then the class fontSize-9xl should be used 1`] = `
+<label
+  className="a-label fontSize-9xl"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in an invalid value Then no fontSize class should be used 1`] = `
+<label
+  className="a-label"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in base Then the class fontSize-base should be used 1`] = `
+<label
+  className="a-label fontSize-base"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in lg Then the class fontSize-lg should be used 1`] = `
+<label
+  className="a-label fontSize-lg"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in sm Then the class fontSize-sm should be used 1`] = `
+<label
+  className="a-label fontSize-sm"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in undefined Then no fontSize class should be used 1`] = `
+<label
+  className="a-label"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in xl Then the class fontSize-xl should be used 1`] = `
+<label
+  className="a-label fontSize-xl"
+/>
+`;
+
+exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in xs Then the class fontSize-xs should be used 1`] = `
+<label
+  className="a-label fontSize-xs"
+/>
+`;
+
 exports[`Given ALabel component is used When a developer uses a factory prop type When a developer uses the height prop When a developer passes in 0 Then the class height-0 should be used 1`] = `
 <label
   className="a-label height-0"
