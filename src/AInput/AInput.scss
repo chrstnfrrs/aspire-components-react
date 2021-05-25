@@ -1,0 +1,13 @@
+.a-input {
+  --AInput-padding: 0.5rem 1rem;
+  background: var(--A-background);
+  color: var(--A-color);
+  padding: var(--AInput-padding);
+  border-radius: 0;
+  border: 1px solid black;
+  outline: none;
+}
+.a-input--label {
+  font-size: 0.875rem;
+  margin: 1rem 0 0.5rem;
+}

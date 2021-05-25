@@ -4,6 +4,8 @@ import { ACol } from './ACol/ACol';
 import { AContainer } from './AContainer/AContainer';
 import { AForm } from './AForm/AForm';
 import { AGrid } from './AGrid/AGrid';
+import { AInput } from './AInput/AInput';
+import { ALabel } from './ALabel/ALabel';
 import { ANav } from './ANav/ANav';
 import { ARow } from './ARow/ARow';
 import { ASection } from './ASection/ASection';
@@ -18,6 +20,8 @@ export {
   AContainer,
   AForm,
   AGrid,
+  AInput,
+  ALabel,
   ANav,
   ARow,
   ASection,

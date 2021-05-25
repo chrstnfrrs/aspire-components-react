@@ -1,0 +1,6 @@
+.a-label {
+  --ALabel-fontSize: 0.875rem;
+  --ALabel-margin: 1rem 0 0.5rem;
+  font-size: var(--ALabel-fontSize);
+  margin: var(--ALabel-margin);
+}

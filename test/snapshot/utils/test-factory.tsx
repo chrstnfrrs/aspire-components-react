@@ -6,7 +6,7 @@ import { ALLOW_ANY, ITestPropType } from '../../types';
 
 const chance = new Chance();
 
-export const testFactory: ITestPropType = (Component, name, mapOfFactories) => {
+export const testFactory: ITestPropType = (Component, mapOfFactories) => {
   let tree: ALLOW_ANY;
 
   describe.each(Object.keys(mapOfFactories))(
@@ -20,9 +20,7 @@ export const testFactory: ITestPropType = (Component, name, mapOfFactories) => {
               [prop]: value,
             };
 
-            tree = renderer
-              .create(<Component {...theProps}>{name}</Component>)
-              .toJSON();
+            tree = renderer.create(<Component {...theProps} />).toJSON();
           });
           test(`Then the class ${prop}-${value} should be used`, () => {
             expect(tree).toMatchSnapshot();
@@ -35,9 +33,7 @@ export const testFactory: ITestPropType = (Component, name, mapOfFactories) => {
             [prop]: chance.string(),
           };
 
-          tree = renderer
-            .create(<Component {...theProps}>{name}</Component>)
-            .toJSON();
+          tree = renderer.create(<Component {...theProps} />).toJSON();
         });
         test(`Then no ${prop} class should be used`, () => {
           expect(tree).toMatchSnapshot();
@@ -49,9 +45,7 @@ export const testFactory: ITestPropType = (Component, name, mapOfFactories) => {
             [prop]: undefined,
           };
 
-          tree = renderer
-            .create(<Component {...theProps}>{name}</Component>)
-            .toJSON();
+          tree = renderer.create(<Component {...theProps} />).toJSON();
         });
         test(`Then no ${prop} class should be used`, () => {
           expect(tree).toMatchSnapshot();
