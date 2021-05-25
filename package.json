@@ -68,7 +68,7 @@
     "typescript": "^4.2.3"
   },
   "dependencies": {
-    "aspire-components-functions": "^0.0.8",
+    "aspire-components-functions": "^0.0.9",
     "aspire-components-scss": "^1.0.1",
     "clsx": "^1.1.1"
   },
