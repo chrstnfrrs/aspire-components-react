@@ -16,7 +16,7 @@ const hasMaterialClasses = (prop: string, key: string) => {
   return materialProps.includes(prop);
 };
 
-const testFactory: ITestPropType = (Component, name, factoryMap) => {
+const testFactory: ITestPropType = (Component, factoryMap) => {
   let result: ALLOW_ANY;
   let key: string;
 
@@ -39,7 +39,7 @@ const testFactory: ITestPropType = (Component, name, factoryMap) => {
             className = `md-${className}`;
           }
 
-          result = RTL.render(<Component {...props}>{name}</Component>);
+          result = RTL.render(<Component {...props} />);
         });
 
         test(`Then the class for ${value} should be present`, () => {
@@ -50,17 +50,13 @@ const testFactory: ITestPropType = (Component, name, factoryMap) => {
   });
 };
 
-const testFactoryWithNoChidlren: ITestPropType = (
-  Component,
-  name,
-  factoryMap,
-) => {
+const testFactoryWithNoChidlren: ITestPropType = (Component, factoryMap) => {
   let result: ALLOW_ANY;
   let key: string;
 
   describe.each(Object.keys(factoryMap))('When %s prop is used', (prop) => {
     describe.each(factoryMap[prop])(
-      `When %s is passed into ${name} for ${prop}`,
+      `When %s is passed into for ${prop}`,
       (value) => {
         let className: string;
 

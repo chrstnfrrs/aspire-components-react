@@ -51,7 +51,7 @@ const testComponent: ITestComponent = (Component, name, mapOfProps) => {
   describe.each(Object.keys(mapOfProps))(
     'When %s prop type is used',
     (propType) => {
-      propTypeUnitMap[propType](Component, name, mapOfProps[propType]);
+      propTypeUnitMap[propType](Component, mapOfProps[propType]);
     },
   );
 };
@@ -93,11 +93,7 @@ const testComponentWithNoChildren: ITestComponent = (
     describe.each(Object.keys(mapOfProps))(
       'When %s prop type is used',
       (propType) => {
-        propTypeUnitMapNoChildren[propType](
-          Component,
-          name,
-          mapOfProps[propType],
-        );
+        propTypeUnitMapNoChildren[propType](Component, mapOfProps[propType]);
       },
     );
   });
