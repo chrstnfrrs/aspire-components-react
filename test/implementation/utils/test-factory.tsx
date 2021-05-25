@@ -16,7 +16,7 @@ const hasMaterialClasses = (prop: string, key: string) => {
   return materialProps.includes(prop);
 };
 
-export const testFactory: ITestPropType = (Component, name, factoryMap) => {
+const testFactory: ITestPropType = (Component, name, factoryMap) => {
   let result: ALLOW_ANY;
   let key: string;
 
@@ -49,3 +49,44 @@ export const testFactory: ITestPropType = (Component, name, factoryMap) => {
     );
   });
 };
+
+const testFactoryWithNoChidlren: ITestPropType = (
+  Component,
+  name,
+  factoryMap,
+) => {
+  let result: ALLOW_ANY;
+  let key: string;
+
+  describe.each(Object.keys(factoryMap))('When %s prop is used', (prop) => {
+    describe.each(factoryMap[prop])(
+      `When %s is passed into ${name} for ${prop}`,
+      (value) => {
+        let className: string;
+
+        // eslint-disable-next-line jest/no-duplicate-hooks
+        beforeEach(() => {
+          const props = {
+            [prop]: value,
+          };
+
+          key = value.split('.').join('_').split('/').join('__');
+
+          className = `${prop}-${key}`;
+
+          if (hasMaterialClasses(prop, key)) {
+            className = `md-${className}`;
+          }
+
+          result = RTL.render(<Component {...props} />);
+        });
+
+        test(`Then the class for ${value} should be present`, () => {
+          expect(testClass(result, className)).toBe(true);
+        });
+      },
+    );
+  });
+};
+
+export { testFactory, testFactoryWithNoChidlren };
