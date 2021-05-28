@@ -1,4 +1,4 @@
-import { IElementComponent, ILayoutComponent } from '../types';
+import { IElementComponent } from '../types';
 
 interface IAInput extends IElementComponent {
   fontSize?: string;
