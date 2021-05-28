@@ -1,4 +1,5 @@
 import { ABox } from './ABox/ABox';
+import { ABtn } from './ABtn/ABtn';
 import { ACard } from './ACard/ACard';
 import { ACol } from './ACol/ACol';
 import { AContainer } from './AContainer/AContainer';
@@ -16,6 +17,7 @@ import 'aspire-components-scss/build/index.scss';
 
 export {
   ABox,
+  ABtn,
   ACard,
   ACol,
   AContainer,
