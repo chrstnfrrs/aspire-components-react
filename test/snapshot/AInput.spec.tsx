@@ -1,15 +1,15 @@
-import { ALabel } from '../../src/ALabel/ALabel';
+import { AInput } from '../../src/AInput/AInput';
 import { ELEMENT_ENUM, FONTSIZE_ENUM } from '../enums/factories';
 
 import { testComponentWithNoChildren } from './utils/test-component';
 
-describe('Given ALabel component is used', () => {
-  const ALabelProps = {
+describe('Given AInput component is used', () => {
+  const AInputProps = {
     factory: {
       ...ELEMENT_ENUM,
       fontSize: FONTSIZE_ENUM,
     },
   };
 
-  testComponentWithNoChildren(ALabel, 'ALabel', ALabelProps);
+  testComponentWithNoChildren(AInput, 'AInput', AInputProps);
 });
