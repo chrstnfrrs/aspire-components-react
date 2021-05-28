@@ -10,6 +10,7 @@ import { ANav } from './ANav/ANav';
 import { ARow } from './ARow/ARow';
 import { ASection } from './ASection/ASection';
 import { ASpacer } from './ASpacer/ASpacer';
+import { ATextArea } from './ATextArea/ATextArea';
 
 import 'aspire-components-scss/build/index.scss';
 
@@ -26,4 +27,5 @@ export {
   ARow,
   ASection,
   ASpacer,
+  ATextArea,
 };
