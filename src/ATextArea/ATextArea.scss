@@ -1,0 +1,12 @@
+.a-textarea {
+  --ATextArea-padding: 0.5rem 1rem;
+  --ATextArea-fontSize: 1rem;
+  background: var(--A-background);
+  color: var(--A-color);
+  padding: var(--ATextArea-padding);
+  font-size: var(--ATextArea-fontSize);
+  border-radius: 0;
+  border: 1px solid black;
+  outline: none;
+  resize: vertical;
+}
