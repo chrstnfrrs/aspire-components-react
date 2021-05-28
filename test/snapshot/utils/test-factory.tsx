@@ -1,10 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Chance from 'chance';
 
 import { ALLOW_ANY, ITestPropType } from '../../types';
-
-const chance = new Chance();
 
 export const testFactory: ITestPropType = (Component, mapOfFactories) => {
   let tree: ALLOW_ANY;
@@ -30,7 +27,7 @@ export const testFactory: ITestPropType = (Component, mapOfFactories) => {
       describe('When a developer passes in an invalid value', () => {
         beforeEach(() => {
           const theProps = {
-            [prop]: chance.string(),
+            [prop]: 'asdf',
           };
 
           tree = renderer.create(<Component {...theProps} />).toJSON();
