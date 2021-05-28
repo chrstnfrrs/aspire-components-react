@@ -10,6 +10,7 @@ import * as ANavFile from '../../src/ANav/ANav';
 import * as ARowFile from '../../src/ARow/ARow';
 import * as ASectionFile from '../../src/ASection/ASection';
 import * as ASpacerFile from '../../src/ASpacer/ASpacer';
+import * as ATextAreaFile from '../../src/ATextArea/ATextArea';
 import * as AspireComponentsReact from '../../src';
 
 jest.mock('../../src/ABox/ABox');
@@ -24,6 +25,7 @@ jest.mock('../../src/ANav/ANav');
 jest.mock('../../src/ARow/ARow');
 jest.mock('../../src/ASection/ASection');
 jest.mock('../../src/ASpacer/ASpacer');
+jest.mock('../../src/ATextArea/ATextArea');
 
 const { ABox } = ABoxFile as jest.Mocked<typeof ABoxFile>;
 const { ACard } = ACardFile as jest.Mocked<typeof ACardFile>;
@@ -37,6 +39,7 @@ const { ANav } = ANavFile as jest.Mocked<typeof ANavFile>;
 const { ARow } = ARowFile as jest.Mocked<typeof ARowFile>;
 const { ASection } = ASectionFile as jest.Mocked<typeof ASectionFile>;
 const { ASpacer } = ASpacerFile as jest.Mocked<typeof ASpacerFile>;
+const { ATextArea } = ATextAreaFile as jest.Mocked<typeof ATextAreaFile>;
 
 describe('Given aspire-components-react', () => {
   test('then the following components should be exported', () => {
@@ -53,6 +56,7 @@ describe('Given aspire-components-react', () => {
       ARow,
       ASection,
       ASpacer,
+      ATextArea,
     });
   });
 });
