@@ -1,11 +1,17 @@
 import React from 'react';
 import clsx from 'clsx';
-import { setPadding } from 'aspire-components-functions';
+import { setWidth, setHeight } from 'aspire-components-functions';
 
+import { IASpacerComponent } from './ASpacer.d';
 import './ASpacer.scss';
 
 const ASpacer: React.FC<IASpacerComponent> = (props) => {
-  const classList = [props.className, 'a-spacer', setPadding(props.padding)];
+  const classList = [
+    props.className,
+    'a-spacer',
+    setWidth(props.size),
+    setHeight(props.size),
+  ];
 
   return (
     <div className={clsx(classList)} style={props.style}>
