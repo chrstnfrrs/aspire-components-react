@@ -1,5 +1,7 @@
 interface IASpacerComponent {
   className?: string;
-  padding?: string;
+  size?: string;
   style?: React.CSSProperties | undefined;
 }
+
+export { IASpacerComponent };
