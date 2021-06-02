@@ -26,5 +26,5 @@
     "declaration": true
   },
   "exclude": ["node_modules", "build"],
-  "include": ["./src/**/*.ts", "./test/**/*.ts"]
+  "include": ["./src/**/*.tsx"]
 }
