@@ -1853,7 +1853,7 @@ aspire-components-functions@^0.0.9:
   resolved "https://registry.yarnpkg.com/aspire-components-functions/-/aspire-components-functions-0.0.9.tgz#8e9e5a2f0760db630342537b82b4b50f3757b67e"
   integrity sha512-YvcVT/nZr0r1S+TZSk6eOXOv2tkJW7HLwgYJ0YEK2umWUEUiIav9HRFwQHKz2tTn1t6mYl2DZZ2qC5xWY2RebQ==
 
-aspire-components-scss@^1.0.2:
+aspire-components-scss@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/aspire-components-scss/-/aspire-components-scss-1.0.2.tgz#d1cc588fcab322e28b1e5b6a9969e7c6473eaff0"
   integrity sha512-iUfDMOp79ewphsJtWr6hO46h9oLwWbd1iio92sShYKRxkipV8PLjHJp0vhMLs0/knDKz1Jhsg643fzT30UHjnQ==
