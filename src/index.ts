@@ -12,7 +12,6 @@ import { ARow } from './ARow/ARow';
 import { ASection } from './ASection/ASection';
 import { ASpacer } from './ASpacer/ASpacer';
 import { ATextArea } from './ATextArea/ATextArea';
-import { setTheme } from './functions/set-theme';
 
 import 'aspire-components-scss/build/index.scss';
 
@@ -31,5 +30,4 @@ export {
   ASection,
   ASpacer,
   ATextArea,
-  setTheme,
 };
