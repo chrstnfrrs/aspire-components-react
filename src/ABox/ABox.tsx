@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import { setLayout } from 'aspire-components-functions';
 
-import { ILayoutComponent } from '../types';
+import { ILayoutComponent } from '../types.d';
 import './ABox.scss';
 
 const ABox: React.FC<ILayoutComponent> = (props) => {
