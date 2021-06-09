@@ -13,7 +13,11 @@ const ALabel: React.FC<IALabel> = (props) => {
     setFontSize(props.fontSize),
   ];
 
-  return <label className={clsx(classList)}>{props.children}</label>;
+  return (
+    <label className={clsx(classList)} {...props}>
+      {props.children}
+    </label>
+  );
 };
 
 export { ALabel };
