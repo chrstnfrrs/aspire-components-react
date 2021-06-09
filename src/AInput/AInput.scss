@@ -1,8 +1,10 @@
 .a-input {
   --AInput-padding: 0.5rem 1rem;
   --AInput-fontSize: 1rem;
-  background: var(--A-background);
-  color: var(--A-color);
+  --AInput-background: none;
+  --AInput-color: var(--A-color);
+  background: var(--AInput-background);
+  color: var(--AInput-color);
   padding: var(--AInput-padding);
   font-size: var(--AInput-fontSize);
   border-radius: 0;
