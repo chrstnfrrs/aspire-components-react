@@ -9,7 +9,7 @@ const AContainer: React.FC<ILayoutComponent> = (props) => {
   const classList = [props.className, 'a-container', ...setLayout(props)];
 
   return (
-    <div className={clsx(classList)} style={props.style} {...props}>
+    <div className={clsx(classList)} style={props.style}>
       {props.children}
     </div>
   );

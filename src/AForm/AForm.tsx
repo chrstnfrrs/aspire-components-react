@@ -9,9 +9,9 @@ const AForm: React.FC<ILayoutComponent> = (props) => {
   const classList = [props.className, 'a-form', ...setLayout(props)];
 
   return (
-    <form className={clsx(classList)} style={props.style} {...props}>
+    <nav className={clsx(classList)} style={props.style}>
       {props.children}
-    </form>
+    </nav>
   );
 };
 
