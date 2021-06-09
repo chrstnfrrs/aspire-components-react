@@ -1,6 +1,8 @@
 .a-grid {
-  background: var(--A-background);
-  color: var(--A-color);
+  --AGrid-background: none;
+  --AGrid-color: var(--A-color);
+  background: var(--AGrid-background);
+  color: var(--AGrid-color);
   display: grid;
   width: 100%;
   grid-gap: 1rem;
