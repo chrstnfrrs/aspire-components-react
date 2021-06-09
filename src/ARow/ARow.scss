@@ -1,8 +1,12 @@
 .a-row {
-  --ARow-color: #000000;
   --ARow-padding: 0.5rem;
-  background: var(--A-background);
+  --ARow-background: none;
+  --ARow-color: var(--A-color);
+  background: var(--ARow-background);
   color: var(--ARow-color);
   padding: var(--ARow-padding);
   display: flex;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 }

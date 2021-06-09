@@ -1,7 +1,9 @@
 .a-section {
   --ASection-padding: 0rem;
-  background: var(--A-background);
-  color: var(--A-color);
+  --ASection-background: none;
+  --ASection-color: var(--A-color);
+  background: var(--ASection-background);
+  color: var(--ASection-color);
   padding: var(--ASection-padding);
   display: flex;
   flex-direction: column;

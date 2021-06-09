@@ -1,8 +1,10 @@
 .a-textarea {
   --ATextArea-padding: 0.5rem 1rem;
   --ATextArea-fontSize: 1rem;
-  background: var(--A-background);
-  color: var(--A-color);
+  --ATextArea-background: none;
+  --ATextArea-color: var(--A-color);
+  background: var(--ATextArea-background);
+  color: var(--ATextArea-color);
   padding: var(--ATextArea-padding);
   font-size: var(--ATextArea-fontSize);
   border-radius: 0;

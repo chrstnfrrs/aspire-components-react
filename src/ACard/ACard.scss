@@ -1,7 +1,14 @@
+$dp1: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12),
+  0 1px 3px 0 rgba(0, 0, 0, 0.2);
+$dp8: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12),
+  0 5px 5px -3px rgba(0, 0, 0, 0.2);
+
 .a-card {
   --ACard-padding: 0.25rem;
-  background: var(--A-background);
-  color: var(--A-color);
+  --ACard-background: none;
+  --ACard-color: var(--A-color);
+  background: var(--ACard-background);
+  color: var(--ACard-color);
   padding: var(--ACard-padding);
   display: flex;
   flex-direction: column;
@@ -9,4 +16,8 @@
   align-items: flex-start;
   border-radius: 1px;
   border: 1px solid black;
+  box-shadow: $dp1;
+  &:hover {
+    box-shadow: $dp8;
+  }
 }
