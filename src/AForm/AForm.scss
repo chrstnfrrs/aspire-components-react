@@ -1,6 +1,8 @@
 .a-form {
-  background: var(--A-background);
-  color: var(--A-color);
+  --AForm-background: none;
+  --AForm-color: var(--A-color);
+  background: var(--AForm-background);
+  color: var(--AForm-color);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
