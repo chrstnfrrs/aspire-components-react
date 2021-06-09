@@ -1,10 +1,14 @@
 .a-container {
-  --AContainer-color: #000000;
+  --AContainer-color: var(--A-color);
   --AContainer-padding: 4rem 8rem;
-  background: var(--A-background);
+  --AContainer-background: none;
+  background: var(--AContainer-background);
   color: var(--AContainer-color);
   padding: var(--AContainer-padding);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  @media only screen and (max-width: 600px) {
+    --AContainer-padding: 1rem 2rem;
+  }
 }
