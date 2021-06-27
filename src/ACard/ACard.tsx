@@ -21,7 +21,7 @@ const ACard: React.FC<IACard> = (props) => {
   ];
 
   return (
-    <div className={clsx(classList)} style={props.style}>
+    <div className={clsx(classList)} style={props.style} {...props}>
       {props.children}
     </div>
   );
