@@ -28,7 +28,7 @@ const ASection: React.FC<ILayoutComponent> = ({
   const classList = [
     className,
     'a-section',
-    ...setLayout({
+    setLayout({
       align,
       backgroundColor,
       color,
