@@ -5,11 +5,49 @@ import { setLayout } from 'aspire-components-functions';
 import { ILayoutComponent } from '../types';
 import './ASection.scss';
 
-const ASection: React.FC<ILayoutComponent> = (props) => {
-  const classList = [props.className, 'a-section', ...setLayout(props)];
+const ASection: React.FC<ILayoutComponent> = ({
+  align,
+  backgroundColor,
+  className,
+  color,
+  'data-testid': testid,
+  direction,
+  display,
+  height,
+  justify,
+  margin,
+  maxHeight,
+  maxWidth,
+  minHeight,
+  minWidth,
+  padding,
+  style,
+  width,
+  ...props
+}) => {
+  const classList = [
+    className,
+    'a-section',
+    ...setLayout({
+      align,
+      backgroundColor,
+      color,
+      direction,
+      display,
+      height,
+      justify,
+      margin,
+      maxHeight,
+      maxWidth,
+      minHeight,
+      minWidth,
+      padding,
+      width,
+    }),
+  ];
 
   return (
-    <section className={clsx(classList)} style={props.style}>
+    <section className={clsx(classList)} data-testid={testid} style={style}>
       {props.children}
     </section>
   );
