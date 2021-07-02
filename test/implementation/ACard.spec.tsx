@@ -21,7 +21,7 @@ const { default: clsx } = clsxModule as jest.Mocked<typeof clsxModule>;
 const chance = new Chance();
 
 describe('<ACard>', () => {
-  let classList: (string | undefined)[],
+  let classList: (string | undefined | string[])[],
     align: string | undefined,
     backgroundColor: string | undefined,
     className: string | undefined,
@@ -88,7 +88,7 @@ describe('<ACard>', () => {
     classList = [
       className,
       'a-card',
-      ...elementClasses,
+      elementClasses,
       alignClass,
       justifyClass,
       elevationClass,

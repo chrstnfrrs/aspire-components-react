@@ -32,7 +32,7 @@ const ACard: React.FC<IACard> = ({
   const classList = [
     className,
     'a-card',
-    ...setElement({
+    setElement({
       backgroundColor,
       color,
       height,
