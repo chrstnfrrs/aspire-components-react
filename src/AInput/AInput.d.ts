@@ -8,4 +8,5 @@ interface IAInput extends IElementComponent {
   name?: string;
   placeholder?: string;
   onBlur?: React.FocusEventHandler<HTMLInputElement>;
+  onChange?: React.ChangeEventHandler<HTMLInputElement>;
 }
