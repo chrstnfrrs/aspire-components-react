@@ -2,10 +2,10 @@ import React from 'react';
 import clsx from 'clsx';
 import { setLayout } from 'aspire-components-functions';
 
-import { ILayoutComponent } from '../types';
+import { IAForm } from './AForm.d';
 import './AForm.scss';
 
-const AForm: React.FC<ILayoutComponent> = ({
+const AForm: React.FC<IAForm> = ({
   align,
   backgroundColor,
   className,
@@ -20,6 +20,7 @@ const AForm: React.FC<ILayoutComponent> = ({
   maxWidth,
   minHeight,
   minWidth,
+  onSubmit,
   padding,
   style,
   width,
@@ -47,10 +48,16 @@ const AForm: React.FC<ILayoutComponent> = ({
   ];
 
   return (
-    <form className={clsx(classList)} data-testid={testid} style={style}>
+    <form
+      className={clsx(classList)}
+      data-testid={testid}
+      onSubmit={onSubmit}
+      style={style}
+    >
       {props.children}
     </form>
   );
 };
 
 export { AForm };
+export type { IAForm };
