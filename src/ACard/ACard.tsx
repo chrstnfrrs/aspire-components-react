@@ -10,18 +10,47 @@ import {
 import { IACard } from './ACard.d';
 import './ACard.scss';
 
-const ACard: React.FC<IACard> = (props) => {
+const ACard: React.FC<IACard> = ({
+  align,
+  backgroundColor,
+  className,
+  color,
+  'data-testid': testid,
+  elevation,
+  height,
+  justify,
+  margin,
+  maxHeight,
+  maxWidth,
+  minHeight,
+  minWidth,
+  padding,
+  style,
+  width,
+  ...props
+}) => {
   const classList = [
-    props.className,
+    className,
     'a-card',
-    ...setElement(props),
-    setAlign(props.align),
-    setJustify(props.justify),
-    setElevation(props.elevation),
+    ...setElement({
+      backgroundColor,
+      color,
+      height,
+      margin,
+      maxHeight,
+      maxWidth,
+      minHeight,
+      minWidth,
+      padding,
+      width,
+    }),
+    setAlign(align),
+    setJustify(justify),
+    setElevation(elevation),
   ];
 
   return (
-    <div className={clsx(classList)} style={props.style} {...props}>
+    <div className={clsx(classList)} data-testid={testid} style={style}>
       {props.children}
     </div>
   );
