@@ -5,8 +5,7 @@ import Chance from 'chance';
 import * as ACFunctions from 'aspire-components-functions';
 import * as clsxModule from 'clsx';
 
-import { AForm } from '../../src/AForm/AForm';
-import { ILayoutComponent } from '../../src/types';
+import { AForm, IAForm } from '../../src/AForm/AForm';
 
 jest.mock('aspire-components-functions');
 jest.mock('clsx');
@@ -19,7 +18,7 @@ const chance = new Chance();
 describe('<AForm>', () => {
   let classList: (undefined | string | string[])[],
     layoutClasses: string[],
-    props: ILayoutComponent,
+    props: IAForm,
     align: string | undefined,
     backgroundColor: string | undefined,
     className: string | undefined,
@@ -33,6 +32,7 @@ describe('<AForm>', () => {
     maxWidth: string | undefined,
     minHeight: string | undefined,
     minWidth: string | undefined,
+    onSubmit: jest.Mock,
     padding: string | undefined,
     width: string | undefined,
     testid: string,
@@ -52,6 +52,7 @@ describe('<AForm>', () => {
     maxWidth = chance.bool() ? chance.string() : undefined;
     minHeight = chance.bool() ? chance.string() : undefined;
     minWidth = chance.bool() ? chance.string() : undefined;
+    onSubmit = jest.fn();
     padding = chance.bool() ? chance.string() : undefined;
     width = chance.bool() ? chance.string() : undefined;
     testid = chance.string();
@@ -72,6 +73,7 @@ describe('<AForm>', () => {
       maxWidth,
       minHeight,
       minWidth,
+      onSubmit,
       padding,
       width,
     };
@@ -116,5 +118,19 @@ describe('<AForm>', () => {
   });
   test('should be able to find by children text', () => {
     expect(RTL.screen.getByText(text)).toBeVisible();
+  });
+
+  describe('onSubmit', () => {
+    beforeEach(() => {
+      const form = RTL.screen.getByTestId(testid);
+
+      RTL.act(() => {
+        RTL.fireEvent.submit(form);
+      });
+    });
+
+    test('should call on submit callback', () => {
+      expect(onSubmit).toHaveBeenCalledTimes(1);
+    });
   });
 });
