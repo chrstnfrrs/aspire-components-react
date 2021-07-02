@@ -28,7 +28,7 @@ const ARow: React.FC<ILayoutComponent> = ({
   const classList = [
     className,
     'a-row',
-    ...setLayout({
+    setLayout({
       align,
       backgroundColor,
       color,
