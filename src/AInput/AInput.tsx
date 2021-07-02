@@ -5,15 +5,58 @@ import { setElement, setFontSize } from 'aspire-components-functions';
 import { IAInput } from './AInput.d';
 import './AInput.scss';
 
-const AInput: React.FC<IAInput> = (props) => {
+const AInput: React.FC<IAInput> = ({
+  backgroundColor,
+  className,
+  color,
+  'data-testid': testid,
+  fontSize,
+  height,
+  margin,
+  maxHeight,
+  maxWidth,
+  minHeight,
+  minWidth,
+  padding,
+  style,
+  width,
+  id,
+  name,
+  placeholder,
+  onBlur,
+  onChange,
+}) => {
   const classList = [
-    props.className,
+    className,
     'a-input',
-    ...setElement(props),
-    setFontSize(props.fontSize),
+    setElement({
+      backgroundColor,
+      color,
+      height,
+      margin,
+      maxHeight,
+      maxWidth,
+      minHeight,
+      minWidth,
+      padding,
+      width,
+    }),
+    setFontSize(fontSize),
   ];
 
-  return <input className={clsx(classList)} style={props.style} {...props} />;
+  return (
+    <input
+      className={clsx(classList)}
+      data-testid={testid}
+      id={id}
+      name={name}
+      onBlur={onBlur}
+      onChange={onChange}
+      placeholder={placeholder}
+      style={style}
+    />
+  );
 };
 
 export { AInput };
+export type { IAInput };

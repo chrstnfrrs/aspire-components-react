@@ -2,6 +2,7 @@ interface IElementComponent {
   backgroundColor?: string;
   className?: string;
   color?: string;
+  ['data-testid']?: string;
   height?: string;
   margin?: string;
   maxHeight?: string;
@@ -18,6 +19,7 @@ interface ILayoutComponent {
   backgroundColor?: string;
   className?: string;
   color?: string;
+  ['data-testid']?: string;
   direction?: string;
   display?: string;
   height?: string;

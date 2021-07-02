@@ -1,46 +1,48 @@
-const createVariableName = (
-  componentName: string | undefined,
-  property: string,
-) => `--${componentName || 'A'}-${property}`;
+// THIS CODE SHOULD NOT HAVE BEEN COMMITTED
 
-type SetProperty = (element: any, variable: string, value: string) => void;
+// const createVariableName = (
+//   componentName: string | undefined,
+//   property: string,
+// ) => `--${componentName || 'A'}-${property}`;
 
-const setProperty: SetProperty = (element, variable, value) => {
-  element.style.setProperty(variable, value);
-};
+// type SetProperty = (element: any, variable: string, value: string) => void;
 
-const setTheme = (theme: any): void => {
-  const rootKeys = ['primary'];
-  const root = document.documentElement;
+// const setProperty: SetProperty = (element, variable, value) => {
+//   element.style.setProperty(variable, value);
+// };
 
-  rootKeys.forEach((key) => {
-    if (theme[key]) {
-      setProperty(root, createVariableName(undefined, key), theme[key]);
-    }
-  });
-  // const root = document.documentElement;
+// const setTheme = (theme: any): void => {
+//   const rootKeys = ['primary'];
+//   const root = document.documentElement;
 
-  // keys.forEach((key: string) => {
-  //   if (keyToVariableMap[key] && typeof keyToVariableMap[key] === 'string') {
-  //     root.style.setProperty(keyToVariableMap[key], theme[key]);
-  //   }
-  // });
+//   rootKeys.forEach((key) => {
+//     if (theme[key]) {
+//       setProperty(root, createVariableName(undefined, key), theme[key]);
+//     }
+//   });
+//   // const root = document.documentElement;
 
-  if (theme?.ANav) {
-    const aNav = document.querySelector('.a-nav');
+//   // keys.forEach((key: string) => {
+//   //   if (keyToVariableMap[key] && typeof keyToVariableMap[key] === 'string') {
+//   //     root.style.setProperty(keyToVariableMap[key], theme[key]);
+//   //   }
+//   // });
 
-    const navThemeable = ['background', 'color'];
+//   if (theme?.ANav) {
+//     const aNav = document.querySelector('.a-nav');
 
-    navThemeable.forEach((key) => {
-      if (theme.ANav[key]) {
-        setProperty(aNav, createVariableName('ANav', key), theme.ANav[key]);
-      }
-    });
-    // // @ts-ignore
-    // aNav?.style.setProperty('--ANav-background', theme.ANav?.background);
-    // // @ts-ignore
-    // aNav?.style.setProperty('--ANav-color', theme.ANav?.color);
-  }
-};
+//     const navThemeable = ['background', 'color'];
 
-export { setTheme };
+//     navThemeable.forEach((key) => {
+//       if (theme.ANav[key]) {
+//         setProperty(aNav, createVariableName('ANav', key), theme.ANav[key]);
+//       }
+//     });
+//     // // @ts-ignore
+//     // aNav?.style.setProperty('--ANav-background', theme.ANav?.background);
+//     // // @ts-ignore
+//     // aNav?.style.setProperty('--ANav-color', theme.ANav?.color);
+//   }
+// };
+
+// export { setTheme };
