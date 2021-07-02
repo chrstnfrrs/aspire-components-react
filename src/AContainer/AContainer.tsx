@@ -28,7 +28,7 @@ const AContainer: React.FC<ILayoutComponent> = ({
   const classList = [
     className,
     'a-container',
-    ...setLayout({
+    setLayout({
       align,
       backgroundColor,
       color,
