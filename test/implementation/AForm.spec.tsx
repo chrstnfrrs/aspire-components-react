@@ -17,7 +17,7 @@ const { default: clsx } = clsxModule as jest.Mocked<typeof clsxModule>;
 const chance = new Chance();
 
 describe('<AForm>', () => {
-  let classList: (undefined | string)[],
+  let classList: (undefined | string | string[])[],
     layoutClasses: string[],
     props: ILayoutComponent,
     align: string | undefined,
@@ -78,7 +78,7 @@ describe('<AForm>', () => {
 
     layoutClasses = chance.n(chance.string, chance.d6());
     setLayout.mockReturnValue(layoutClasses);
-    classList = [className, 'a-form', ...layoutClasses];
+    classList = [className, 'a-form', layoutClasses];
 
     RTL.render(
       <AForm data-testid='a-form' {...props}>

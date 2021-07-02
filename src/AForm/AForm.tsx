@@ -28,7 +28,7 @@ const AForm: React.FC<ILayoutComponent> = ({
   const classList = [
     className,
     'a-form',
-    ...setLayout({
+    setLayout({
       align,
       backgroundColor,
       color,
