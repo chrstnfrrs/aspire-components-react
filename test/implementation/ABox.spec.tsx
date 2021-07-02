@@ -34,8 +34,9 @@ describe('Given ABox component is used', () => {
     minHeight: string | undefined,
     minWidth: string | undefined,
     padding: string | undefined,
+    width: string | undefined,
     testid: string,
-    width: string | undefined;
+    text: string;
 
   beforeEach(() => {
     className = chance.bool() ? chance.string() : undefined;
@@ -54,6 +55,7 @@ describe('Given ABox component is used', () => {
     padding = chance.bool() ? chance.string() : undefined;
     width = chance.bool() ? chance.string() : undefined;
     testid = chance.string();
+    text = chance.string();
 
     props = {
       align,
@@ -78,7 +80,11 @@ describe('Given ABox component is used', () => {
     setLayout.mockReturnValue(layoutClasses);
     classList = [className, 'a-box', ...layoutClasses];
 
-    RTL.render(<ABox data-testid='a-box' {...props} />);
+    RTL.render(
+      <ABox data-testid='a-box' {...props}>
+        {text}
+      </ABox>,
+    );
   });
 
   afterEach(jest.resetAllMocks);
@@ -107,5 +113,8 @@ describe('Given ABox component is used', () => {
   });
   test('should be able to find by testid', () => {
     expect(RTL.screen.getByTestId(testid)).toBeVisible();
+  });
+  test('should be able to find by children text', () => {
+    expect(RTL.screen.getByText(text)).toBeVisible();
   });
 });
