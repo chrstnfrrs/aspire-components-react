@@ -16,7 +16,7 @@ const { default: clsx } = clsxModule as jest.Mocked<typeof clsxModule>;
 
 const chance = new Chance();
 
-describe('Given ABox component is used', () => {
+describe('<ABox>', () => {
   let classList: (undefined | string)[],
     layoutClasses: string[],
     props: ILayoutComponent,

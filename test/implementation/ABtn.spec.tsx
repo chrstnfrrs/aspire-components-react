@@ -17,7 +17,7 @@ const { default: clsx } = clsxModule as jest.Mocked<typeof clsxModule>;
 
 const chance = new Chance();
 
-describe('Given ABtn component is used', () => {
+describe('<ABtn>', () => {
   let props: IABtn,
     backgroundColor: string | undefined,
     className: string | undefined,
