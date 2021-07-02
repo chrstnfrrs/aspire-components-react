@@ -28,7 +28,7 @@ const ANav: React.FC<ILayoutComponent> = ({
   const classList = [
     className,
     'a-nav',
-    ...setLayout({
+    setLayout({
       align,
       backgroundColor,
       color,
