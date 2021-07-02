@@ -2,6 +2,7 @@ interface IElementComponent {
   backgroundColor?: string;
   className?: string;
   color?: string;
+  ['data-testid']?: string;
   height?: string;
   margin?: string;
   maxHeight?: string;
