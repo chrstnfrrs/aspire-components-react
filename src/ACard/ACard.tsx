@@ -57,3 +57,4 @@ const ACard: React.FC<IACard> = ({
 };
 
 export { ACard };
+export type { IACard };
