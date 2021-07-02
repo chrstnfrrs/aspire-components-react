@@ -28,7 +28,7 @@ const ABox: React.FC<ILayoutComponent> = ({
   const classList = [
     className,
     'a-box',
-    ...setLayout({
+    setLayout({
       align,
       backgroundColor,
       color,
