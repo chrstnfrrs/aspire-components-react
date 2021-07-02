@@ -28,7 +28,7 @@ const ACol: React.FC<ILayoutComponent> = ({
   const classList = [
     className,
     'a-col',
-    ...setLayout({
+    setLayout({
       align,
       backgroundColor,
       color,
