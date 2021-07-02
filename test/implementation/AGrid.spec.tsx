@@ -16,7 +16,7 @@ const { default: clsx } = clsxModule as jest.Mocked<typeof clsxModule>;
 const chance = new Chance();
 
 describe('<AGrid>', () => {
-  let classList: (undefined | string)[],
+  let classList: (undefined | string | string[])[],
     layoutClasses: string[],
     gapClass: string,
     props: IAGrid,
@@ -83,7 +83,7 @@ describe('<AGrid>', () => {
     setLayout.mockReturnValue(layoutClasses);
     gapClass = chance.string();
     setGap.mockReturnValue(gapClass);
-    classList = [className, 'a-grid', gapClass, ...layoutClasses];
+    classList = [className, 'a-grid', gapClass, layoutClasses];
 
     RTL.render(
       <AGrid data-testid='a-grid' {...props}>

@@ -30,7 +30,7 @@ const AGrid: React.FC<IAGrid> = ({
     className,
     'a-grid',
     setGap(gap),
-    ...setLayout({
+    setLayout({
       align,
       backgroundColor,
       color,
