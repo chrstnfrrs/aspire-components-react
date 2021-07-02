@@ -32,7 +32,7 @@ describe('<ABtn>', () => {
     padding: string | undefined,
     type: 'button' | 'submit' | 'reset' | undefined,
     width: string | undefined,
-    classList: (undefined | string)[],
+    classList: (undefined | string | string[])[],
     onClick: jest.Mock,
     button: HTMLElement,
     testid: string,
@@ -81,7 +81,7 @@ describe('<ABtn>', () => {
 
     setElement.mockReturnValue(elementClasses);
     setElevation.mockReturnValue(elevationClass);
-    classList = [className, 'a-btn', ...elementClasses, elevationClass];
+    classList = [className, 'a-btn', elementClasses, elevationClass];
   });
 
   afterEach(jest.resetAllMocks);

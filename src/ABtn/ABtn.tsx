@@ -27,7 +27,7 @@ const ABtn: React.FC<IABtn> = ({
   const classList = [
     className,
     'a-btn',
-    ...setElement({
+    setElement({
       backgroundColor,
       color,
       height,
