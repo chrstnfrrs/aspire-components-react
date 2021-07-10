@@ -16,7 +16,7 @@ interface IStyleProps {
 interface IHeading {
   as?: HeadingAs;
   className?: string;
-  'data-testid': string;
+  'data-testid'?: string;
   fontSize?: string;
   type?: HeadingType;
 }
@@ -32,20 +32,32 @@ type GetElement = (
   props: Types.AllowAny;
 };
 
-const H1: React.FC<IHeading> = (props) => <h1>{props.children}</h1>;
+const H1: React.FC<IHeading> = (props) => (
+  <h1 data-testid={props['data-testid']}>{props.children}</h1>
+);
 
-const H2: React.FC<IHeading> = (props) => <h2>{props.children}</h2>;
+const H2: React.FC<IHeading> = (props) => (
+  <h2 data-testid={props['data-testid']}>{props.children}</h2>
+);
 
-const H3: React.FC<IHeading> = (props) => <h3>{props.children}</h3>;
+const H3: React.FC<IHeading> = (props) => (
+  <h3 data-testid={props['data-testid']}>{props.children}</h3>
+);
 
-const H4: React.FC<IHeading> = (props) => <h4>{props.children}</h4>;
+const H4: React.FC<IHeading> = (props) => (
+  <h4 data-testid={props['data-testid']}>{props.children}</h4>
+);
 
-const H5: React.FC<IHeading> = (props) => <h5>{props.children}</h5>;
+const H5: React.FC<IHeading> = (props) => (
+  <h5 data-testid={props['data-testid']}>{props.children}</h5>
+);
 
-const H6: React.FC<IHeading> = (props) => <h6>{props.children}</h6>;
+const H6: React.FC<IHeading> = (props) => (
+  <h6 data-testid={props['data-testid']}>{props.children}</h6>
+);
 
 const AStrong: React.FC<IHeading> = (props) => (
-  <strong>{props.children}</strong>
+  <strong data-testid={props['data-testid']}>{props.children}</strong>
 );
 
 const getElementType: GetElementType = (type) => {
@@ -111,4 +123,4 @@ const getElement: GetElement = ({
 };
 
 export { getElement };
-export type { HeadingType, IHeading };
+export type { HeadingAs, HeadingType, IHeading };
