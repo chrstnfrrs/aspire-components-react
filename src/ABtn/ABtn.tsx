@@ -5,21 +5,51 @@ import { setElement, setElevation } from 'aspire-components-functions';
 import { IABtn } from './ABtn.d';
 import './ABtn.scss';
 
-const ABtn: React.FC<IABtn> = (props) => {
+const ABtn: React.FC<IABtn> = ({
+  backgroundColor,
+  className,
+  color,
+  onClick,
+  'data-testid': testid,
+  elevation,
+  height,
+  margin,
+  maxHeight,
+  maxWidth,
+  minHeight,
+  minWidth,
+  padding,
+  style,
+  type,
+  width,
+  ...props
+}) => {
   const classList = [
-    props.className,
+    className,
     'a-btn',
-    ...setElement(props),
-    setElevation(props.elevation),
+    setElement({
+      backgroundColor,
+      color,
+      height,
+      margin,
+      maxHeight,
+      maxWidth,
+      minHeight,
+      minWidth,
+      padding,
+      width,
+    }),
+    setElevation(elevation),
   ];
 
   return (
     <button
       className={clsx(classList)}
-      onClick={props.onClick}
-      style={props.style}
+      data-testid={testid}
+      onClick={onClick}
+      style={style}
       // eslint-disable-next-line react/button-has-type
-      type={props.type || 'button'}
+      type={type || 'button'}
     >
       {props.children}
     </button>
@@ -27,3 +57,4 @@ const ABtn: React.FC<IABtn> = (props) => {
 };
 
 export { ABtn };
+export type { IABtn };

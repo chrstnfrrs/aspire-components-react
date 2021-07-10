@@ -5,7 +5,7 @@ import Chance from 'chance';
 import * as ACFunctions from 'aspire-components-functions';
 import * as clsxModule from 'clsx';
 
-import { ABtn } from '../../src/ABtn/ABtn';
+import { ABtn, IABtn } from '../../src/ABtn/ABtn';
 
 jest.mock('aspire-components-functions');
 jest.mock('clsx');
@@ -17,164 +17,136 @@ const { default: clsx } = clsxModule as jest.Mocked<typeof clsxModule>;
 
 const chance = new Chance();
 
-interface IABtnTestingProps {
-  children?: string;
-  className?: string;
-  elevation?: string;
-  onClick?: jest.Mock;
-  type?: 'reset' | 'submit';
-}
-
-describe('Given ABtn component is used', () => {
-  let props: IABtnTestingProps,
-    children: string,
-    className: string,
-    elevation: string,
-    expectedClasses: string[],
+describe('<ABtn>', () => {
+  let props: IABtn,
+    backgroundColor: string | undefined,
+    className: string | undefined,
+    color: string | undefined,
+    elevation: string | undefined,
+    height: string | undefined,
+    margin: string | undefined,
+    maxHeight: string | undefined,
+    maxWidth: string | undefined,
+    minHeight: string | undefined,
+    minWidth: string | undefined,
+    padding: string | undefined,
+    type: 'button' | 'submit' | 'reset' | undefined,
+    width: string | undefined,
+    classList: (undefined | string | string[])[],
     onClick: jest.Mock,
-    button: HTMLElement;
+    button: HTMLElement,
+    testid: string,
+    text: string;
 
   beforeEach(() => {
-    children = chance.string();
-    className = chance.string();
-    elevation = chance.string();
+    testid = chance.string();
+    text = chance.string();
+    backgroundColor = chance.bool() ? chance.string() : undefined;
+    className = chance.bool() ? chance.string() : undefined;
+    color = chance.bool() ? chance.string() : undefined;
+    elevation = chance.bool() ? chance.string() : undefined;
+    height = chance.bool() ? chance.string() : undefined;
+    margin = chance.bool() ? chance.string() : undefined;
+    maxHeight = chance.bool() ? chance.string() : undefined;
+    maxWidth = chance.bool() ? chance.string() : undefined;
+    minHeight = chance.bool() ? chance.string() : undefined;
+    minWidth = chance.bool() ? chance.string() : undefined;
+    padding = chance.bool() ? chance.string() : undefined;
+    type = chance.bool()
+      ? chance.pickone(['button', 'submit', 'reset'])
+      : undefined;
+    width = chance.bool() ? chance.string() : undefined;
     onClick = jest.fn();
 
     props = {
-      children,
+      backgroundColor,
       className,
+      color,
+      'data-testid': testid,
       elevation,
+      height,
+      margin,
+      maxHeight,
+      maxWidth,
+      minHeight,
+      minWidth,
+      onClick,
+      padding,
+      type,
+      width,
     };
+
     const elementClasses = chance.n(chance.string, chance.d6());
     const elevationClass = chance.string();
 
     setElement.mockReturnValue(elementClasses);
     setElevation.mockReturnValue(elevationClass);
-    expectedClasses = [className, 'a-btn', ...elementClasses, elevationClass];
+    classList = [className, 'a-btn', elementClasses, elevationClass];
   });
 
   afterEach(jest.resetAllMocks);
-  describe('When button type is passed in', () => {
-    describe('When onClick is passed in', () => {
-      beforeEach(() => {
-        props = {
-          ...props,
-          onClick,
-          type: chance.pickone(['reset', 'submit']),
-        };
 
-        RTL.render(<ABtn {...props} />);
-        button = RTL.screen.getByText(children);
-      });
-      test('then it should render a button', () => {
-        expect(button).toBeVisible();
-      });
-      test('then it should setElement classes', () => {
-        expect(setElement).toHaveBeenCalledTimes(1);
-        expect(setElement).toHaveBeenCalledWith(props);
-      });
-      test('then it should set elevation classes', () => {
-        expect(setElevation).toHaveBeenCalledTimes(1);
-        expect(setElevation).toHaveBeenCalledWith(elevation);
-      });
-      test('then it should find valid classes', () => {
-        expect(clsx).toHaveBeenCalledTimes(1);
-        expect(clsx).toHaveBeenCalledWith(expectedClasses);
-      });
-      describe('when the button is clicked', () => {
-        beforeEach(() => {
-          RTL.fireEvent.click(button);
-        });
-        test('then a click should trigger onClick', () => {
-          expect(onClick).toHaveBeenCalledTimes(1);
-        });
+  describe('Default Button', () => {
+    beforeEach(() => {
+      RTL.render(<ABtn {...props}>{text}</ABtn>);
+    });
+    test('should get element classes', () => {
+      expect(setElement).toHaveBeenCalledTimes(1);
+      expect(setElement).toHaveBeenCalledWith({
+        backgroundColor,
+        color,
+        height,
+        margin,
+        maxHeight,
+        maxWidth,
+        minHeight,
+        minWidth,
+        padding,
+        width,
       });
     });
-    describe('When onClick is not passed in', () => {
+    test('should get elevation classes', () => {
+      expect(setElevation).toHaveBeenCalledTimes(1);
+      expect(setElevation).toHaveBeenCalledWith(elevation);
+    });
+    test('should create a className string from an array', () => {
+      expect(clsx).toHaveBeenCalledTimes(1);
+      expect(clsx).toHaveBeenCalledWith(classList);
+    });
+    test('should be able to find button with data-testid', () => {
+      expect(RTL.screen.getByTestId(testid)).toBeVisible();
+    });
+    test('should be able to find button with child text', () => {
+      expect(RTL.screen.getByText(text)).toBeVisible();
+    });
+    describe('onclick', () => {
       beforeEach(() => {
-        props = {
-          ...props,
-          type: chance.pickone(['reset', 'submit']),
-        };
-
-        RTL.render(<ABtn {...props} />);
-        button = RTL.screen.getByText(children);
+        button = RTL.screen.getByText(text);
+        RTL.fireEvent.click(button);
       });
-      test('then it should render a button', () => {
-        expect(button).toBeVisible();
-      });
-      test('then it should setElement classes', () => {
-        expect(setElement).toHaveBeenCalledTimes(1);
-        expect(setElement).toHaveBeenCalledWith(props);
-      });
-      test('then it should set elevation classes', () => {
-        expect(setElevation).toHaveBeenCalledTimes(1);
-        expect(setElevation).toHaveBeenCalledWith(elevation);
-      });
-      test('then it should find valid classes', () => {
-        expect(clsx).toHaveBeenCalledTimes(1);
-        expect(clsx).toHaveBeenCalledWith(expectedClasses);
+      test('should call onclick function', () => {
+        expect(onClick).toHaveBeenCalledTimes(1);
       });
     });
   });
-  describe('When button type is not passed in', () => {
-    describe('When onClick is passed in', () => {
+  describe('Button Type', () => {
+    describe('When no type is passed in', () => {
       beforeEach(() => {
-        props = {
-          ...props,
-          onClick,
-        };
-
-        RTL.render(<ABtn {...props} />);
-        button = RTL.screen.getByText(children);
+        delete props.type;
+        RTL.render(<ABtn {...props}>{text}</ABtn>);
       });
-      test('then it should render a button', () => {
-        expect(button).toBeVisible();
-      });
-      test('then it should setElement classes', () => {
-        expect(setElement).toHaveBeenCalledTimes(1);
-        expect(setElement).toHaveBeenCalledWith(props);
-      });
-      test('then it should set elevation classes', () => {
-        expect(setElevation).toHaveBeenCalledTimes(1);
-        expect(setElevation).toHaveBeenCalledWith(elevation);
-      });
-      test('then it should find valid classes', () => {
-        expect(clsx).toHaveBeenCalledTimes(1);
-        expect(clsx).toHaveBeenCalledWith(expectedClasses);
-      });
-      describe('when the button is clicked', () => {
-        beforeEach(() => {
-          RTL.fireEvent.click(button);
-        });
-        test('then a click should trigger onClick', () => {
-          expect(onClick).toHaveBeenCalledTimes(1);
-        });
+      test('should find button', () => {
+        expect(RTL.screen.getByText(text)).toBeVisible();
       });
     });
-    describe('When onClick is not passed in', () => {
+    describe('When type is passed in', () => {
       beforeEach(() => {
-        props = {
-          ...props,
-        };
-
-        RTL.render(<ABtn {...props} />);
-        button = RTL.screen.getByText(children);
+        type = chance.pickone(['button', 'submit', 'reset']);
+        props.type = type;
+        RTL.render(<ABtn {...props}>{text}</ABtn>);
       });
-      test('then it should render a button', () => {
-        expect(button).toBeVisible();
-      });
-      test('then it should setElement classes', () => {
-        expect(setElement).toHaveBeenCalledTimes(1);
-        expect(setElement).toHaveBeenCalledWith(props);
-      });
-      test('then it should set elevation classes', () => {
-        expect(setElevation).toHaveBeenCalledTimes(1);
-        expect(setElevation).toHaveBeenCalledWith(elevation);
-      });
-      test('then it should find valid classes', () => {
-        expect(clsx).toHaveBeenCalledTimes(1);
-        expect(clsx).toHaveBeenCalledWith(expectedClasses);
+      test('should find button', () => {
+        expect(RTL.screen.getByText(text)).toBeVisible();
       });
     });
   });
