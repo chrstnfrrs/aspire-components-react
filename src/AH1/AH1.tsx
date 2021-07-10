@@ -19,7 +19,11 @@ const AH1: React.FC<TypographySelectors.IHeading> = ({
     componentProps,
   );
 
-  return <Component className={className} data-testid={testid} />;
+  return (
+    <Component className={className} data-testid={testid}>
+      {props.children}
+    </Component>
+  );
 };
 
 export { AH1 };
