@@ -21,8 +21,6 @@ const testTypography: TestTypography = (Component, name, prop, propList) => {
           [prop]: value,
         };
 
-        console.log('prop', prop);
-
         tree = renderer
           .create(<Component {...props}>{name}</Component>)
           .toJSON();
