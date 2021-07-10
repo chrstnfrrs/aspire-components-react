@@ -5,6 +5,7 @@ import { ACol } from './ACol/ACol';
 import { AContainer } from './AContainer/AContainer';
 import { AForm } from './AForm/AForm';
 import { AGrid } from './AGrid/AGrid';
+import { AH1 } from './AH1/AH1';
 import { AInput } from './AInput/AInput';
 import { ALabel } from './ALabel/ALabel';
 import { ANav } from './ANav/ANav';
@@ -24,6 +25,7 @@ export {
   AContainer,
   AForm,
   AGrid,
+  AH1,
   AInput,
   ALabel,
   ANav,

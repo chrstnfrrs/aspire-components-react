@@ -13,7 +13,8 @@
     "eslint-comments/no-unlimited-disable": "off",
     "no-use-before-define": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
-    "unicorn/no-abusive-eslint-disable": "off"
+    "unicorn/no-abusive-eslint-disable": "off",
+    "unicorn/filename-case": "off"
   },
   "settings": {
     "import/resolver": {

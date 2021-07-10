@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+type AllowAny = any;
+
 interface IElementComponent {
   backgroundColor?: string;
   className?: string;
@@ -34,4 +37,4 @@ interface ILayoutComponent {
   width?: string;
 }
 
-export { IElementComponent, ILayoutComponent };
+export { AllowAny, IElementComponent, ILayoutComponent };
