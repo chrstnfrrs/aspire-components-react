@@ -5,7 +5,15 @@ import { setFontSize } from 'aspire-components-functions';
 import * as Types from '../types';
 
 type HeadingType = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'strong';
-type HeadingAs = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+type HeadingAs =
+  | 'h1'
+  | 'h2'
+  | 'h3'
+  | 'h4'
+  | 'h5'
+  | 'h6'
+  | 'subtitle-1'
+  | 'subtitle-2';
 
 interface IStyleProps {
   as?: HeadingAs;
@@ -96,6 +104,8 @@ const getElementClass: GetElementClass = (as) => {
     h4: 'a-h4',
     h5: 'a-h5',
     h6: 'a-h6',
+    'subtitle-1': 'a-subtitle-1',
+    'subtitle-2': 'a-subtitle-2',
   };
 
   return map[as];
