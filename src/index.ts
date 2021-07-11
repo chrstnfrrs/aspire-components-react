@@ -17,6 +17,7 @@ import { ANav } from './ANav/ANav';
 import { ARow } from './ARow/ARow';
 import { ASection } from './ASection/ASection';
 import { ASpacer } from './ASpacer/ASpacer';
+import { ASubtitle } from './ASubtitle/ASubtitle';
 import { ATextArea } from './ATextArea/ATextArea';
 // import { setTheme } from './functions/set-theme';
 
@@ -42,6 +43,7 @@ export {
   ARow,
   ASection,
   ASpacer,
+  ASubtitle,
   ATextArea,
   // setTheme,
 };

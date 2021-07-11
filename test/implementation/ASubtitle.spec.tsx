@@ -3,7 +3,7 @@ import * as RTL from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Chance from 'chance';
 
-import { AH2 } from '../../src/AH2/AH2';
+import { ASubtitle } from '../../src/ASubtitle/ASubtitle';
 import * as TypographySelectors from '../../src/typography/heading-selectors';
 
 jest.mock('../../src/typography/heading-selectors');
@@ -13,7 +13,7 @@ const { getElement } = TypographySelectors as jest.Mocked<
   typeof TypographySelectors
 >;
 
-describe('<AH2 />', () => {
+describe('<ASubtitle />', () => {
   let text: string, testid: string;
 
   beforeEach(() => {
@@ -33,15 +33,15 @@ describe('<AH2 />', () => {
   afterEach(jest.resetAllMocks);
   describe('easy path', () => {
     beforeEach(() => {
-      RTL.render(<AH2 data-testid={testid}>{text}</AH2>);
+      RTL.render(<ASubtitle data-testid={testid}>{text}</ASubtitle>);
     });
     test('should get element', () => {
       expect(getElement).toHaveBeenCalledTimes(1);
       expect(getElement).toHaveBeenCalledWith({
-        as: 'h2',
+        as: 'subtitle-1',
         children: text,
         'data-testid': testid,
-        type: 'h2',
+        type: 'strong',
       });
     });
     test('should be able to find by children', () => {
@@ -57,17 +57,17 @@ describe('<AH2 />', () => {
     beforeEach(() => {
       as = chance.pickone([
         'h1',
+        'h2',
         'h3',
         'h4',
         'h5',
-        'h6',
         'subtitle-1',
         'subtitle-2',
       ]);
       RTL.render(
-        <AH2 as={as} data-testid={testid}>
+        <ASubtitle as={as} data-testid={testid}>
           {text}
-        </AH2>,
+        </ASubtitle>,
       );
     });
     test('should get element', () => {
@@ -76,7 +76,7 @@ describe('<AH2 />', () => {
         as,
         children: text,
         'data-testid': testid,
-        type: 'h2',
+        type: 'strong',
       });
     });
     test('should be able to find by children', () => {
@@ -90,17 +90,17 @@ describe('<AH2 />', () => {
     let type: TypographySelectors.HeadingType;
 
     beforeEach(() => {
-      type = chance.pickone(['h1', 'h3', 'h4', 'h5', 'h6', 'strong']);
+      type = chance.pickone(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']);
       RTL.render(
-        <AH2 data-testid={testid} type={type}>
+        <ASubtitle data-testid={testid} type={type}>
           {text}
-        </AH2>,
+        </ASubtitle>,
       );
     });
     test('should get element', () => {
       expect(getElement).toHaveBeenCalledTimes(1);
       expect(getElement).toHaveBeenCalledWith({
-        as: 'h2',
+        as: 'subtitle-1',
         children: text,
         'data-testid': testid,
         type,

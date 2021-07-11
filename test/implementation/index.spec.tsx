@@ -17,6 +17,7 @@ import * as ANavFile from '../../src/ANav/ANav';
 import * as ARowFile from '../../src/ARow/ARow';
 import * as ASectionFile from '../../src/ASection/ASection';
 import * as ASpacerFile from '../../src/ASpacer/ASpacer';
+import * as ASubtitleFile from '../../src/ASubtitle/ASubtitle';
 import * as ATextAreaFile from '../../src/ATextArea/ATextArea';
 import * as AspireComponentsReact from '../../src';
 
@@ -39,6 +40,7 @@ jest.mock('../../src/ANav/ANav');
 jest.mock('../../src/ARow/ARow');
 jest.mock('../../src/ASection/ASection');
 jest.mock('../../src/ASpacer/ASpacer');
+jest.mock('../../src/ASubtitle/ASubtitle');
 jest.mock('../../src/ATextArea/ATextArea');
 
 const { ABox } = ABoxFile as jest.Mocked<typeof ABoxFile>;
@@ -60,6 +62,7 @@ const { ANav } = ANavFile as jest.Mocked<typeof ANavFile>;
 const { ARow } = ARowFile as jest.Mocked<typeof ARowFile>;
 const { ASection } = ASectionFile as jest.Mocked<typeof ASectionFile>;
 const { ASpacer } = ASpacerFile as jest.Mocked<typeof ASpacerFile>;
+const { ASubtitle } = ASubtitleFile as jest.Mocked<typeof ASubtitleFile>;
 const { ATextArea } = ATextAreaFile as jest.Mocked<typeof ATextAreaFile>;
 
 describe('Given aspire-components-react', () => {
@@ -84,6 +87,7 @@ describe('Given aspire-components-react', () => {
       ARow,
       ASection,
       ASpacer,
+      ASubtitle,
       ATextArea,
     });
   });
