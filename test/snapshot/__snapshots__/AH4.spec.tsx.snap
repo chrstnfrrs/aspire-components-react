@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given AH4 component is used When a developer uses AH4 with a className Then the the class should be present 1`] = `
+<h4
+  className="asdf a-h4"
+>
+  AH4
+</h4>
+`;
+
+exports[`Given AH4 component is used When a developer uses AH4 with no props Then the only class should be a-container 1`] = `
+<h4
+  className="a-h4"
+>
+  AH4
+</h4>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 2xl Then the class fontSize-2xl should be used 1`] = `
+<h4
+  className="a-h4 fontSize-2xl"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 3xl Then the class fontSize-3xl should be used 1`] = `
+<h4
+  className="a-h4 fontSize-3xl"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 4xl Then the class fontSize-4xl should be used 1`] = `
+<h4
+  className="a-h4 fontSize-4xl"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 5xl Then the class fontSize-5xl should be used 1`] = `
+<h4
+  className="a-h4 fontSize-5xl"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 6xl Then the class fontSize-6xl should be used 1`] = `
+<h4
+  className="a-h4 fontSize-6xl"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 7xl Then the class fontSize-7xl should be used 1`] = `
+<h4
+  className="a-h4 fontSize-7xl"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 8xl Then the class fontSize-8xl should be used 1`] = `
+<h4
+  className="a-h4 fontSize-8xl"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 9xl Then the class fontSize-9xl should be used 1`] = `
+<h4
+  className="a-h4 fontSize-9xl"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in an invalid value Then no fontSize class should be used 1`] = `
+<h4
+  className="a-h4"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in base Then the class fontSize-base should be used 1`] = `
+<h4
+  className="a-h4 fontSize-base"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in lg Then the class fontSize-lg should be used 1`] = `
+<h4
+  className="a-h4 fontSize-lg"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in sm Then the class fontSize-sm should be used 1`] = `
+<h4
+  className="a-h4 fontSize-sm"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in undefined Then no fontSize class should be used 1`] = `
+<h4
+  className="a-h4"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in xl Then the class fontSize-xl should be used 1`] = `
+<h4
+  className="a-h4 fontSize-xl"
+/>
+`;
+
+exports[`Given AH4 component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in xs Then the class fontSize-xs should be used 1`] = `
+<h4
+  className="a-h4 fontSize-xs"
+/>
+`;
+
+exports[`Given AH4 component is used When rendering AH4 with as set to "h1" Then the component should render as expected 1`] = `
+<h4
+  className="a-h1"
+>
+  AH4
+</h4>
+`;
+
+exports[`Given AH4 component is used When rendering AH4 with as set to "h2" Then the component should render as expected 1`] = `
+<h4
+  className="a-h2"
+>
+  AH4
+</h4>
+`;
+
+exports[`Given AH4 component is used When rendering AH4 with as set to "h3" Then the component should render as expected 1`] = `
+<h4
+  className="a-h3"
+>
+  AH4
+</h4>
+`;
+
+exports[`Given AH4 component is used When rendering AH4 with as set to "h4" Then the component should render as expected 1`] = `
+<h4
+  className="a-h4"
+>
+  AH4
+</h4>
+`;
+
+exports[`Given AH4 component is used When rendering AH4 with as set to "h5" Then the component should render as expected 1`] = `
+<h4
+  className="a-h5"
+>
+  AH4
+</h4>
+`;
+
+exports[`Given AH4 component is used When rendering AH4 with as set to "h6" Then the component should render as expected 1`] = `
+<h4
+  className="a-h6"
+>
+  AH4
+</h4>
+`;
+
+exports[`Given AH4 component is used When rendering AH4 with type set to "h1" Then the component should render as expected 1`] = `
+<h1
+  className="a-h4"
+>
+  AH4
+</h1>
+`;
+
+exports[`Given AH4 component is used When rendering AH4 with type set to "h2" Then the component should render as expected 1`] = `
+<h2
+  className="a-h4"
+>
+  AH4
+</h2>
+`;
+
+exports[`Given AH4 component is used When rendering AH4 with type set to "h3" Then the component should render as expected 1`] = `
+<h3
+  className="a-h4"
+>
+  AH4
+</h3>
+`;
+
+exports[`Given AH4 component is used When rendering AH4 with type set to "h4" Then the component should render as expected 1`] = `
+<h4
+  className="a-h4"
+>
+  AH4
+</h4>
+`;
+
+exports[`Given AH4 component is used When rendering AH4 with type set to "h5" Then the component should render as expected 1`] = `
+<h5
+  className="a-h4"
+>
+  AH4
+</h5>
+`;
+
+exports[`Given AH4 component is used When rendering AH4 with type set to "h6" Then the component should render as expected 1`] = `
+<h6
+  className="a-h4"
+>
+  AH4
+</h6>
+`;
+
+exports[`Given AH4 component is used When rendering AH4 with type set to "strong" Then the component should render as expected 1`] = `
+<strong
+  className="a-h4"
+>
+  AH4
+</strong>
+`;
