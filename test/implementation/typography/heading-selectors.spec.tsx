@@ -4,8 +4,8 @@ import '@testing-library/jest-dom';
 import Chance from 'chance';
 import * as ACF from 'aspire-components-functions';
 
-import * as TypographySelectors from '../../../src/selectors/typography-selectors';
-import * as Types from '../../../src/types.d';
+import * as TypographySelectors from '../../../src/typography/heading-selectors';
+import * as Types from '../../../src/types';
 
 jest.mock('aspire-components-functions');
 
