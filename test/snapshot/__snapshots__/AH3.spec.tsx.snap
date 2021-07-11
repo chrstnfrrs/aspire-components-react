@@ -154,6 +154,22 @@ exports[`Given AH3 component is used When rendering AH3 with as set to "h6" Then
 </h3>
 `;
 
+exports[`Given AH3 component is used When rendering AH3 with as set to "subtitle-1" Then the component should render as expected 1`] = `
+<h3
+  className="a-subtitle-1"
+>
+  AH3
+</h3>
+`;
+
+exports[`Given AH3 component is used When rendering AH3 with as set to "subtitle-2" Then the component should render as expected 1`] = `
+<h3
+  className="a-subtitle-2"
+>
+  AH3
+</h3>
+`;
+
 exports[`Given AH3 component is used When rendering AH3 with type set to "h1" Then the component should render as expected 1`] = `
 <h1
   className="a-h3"

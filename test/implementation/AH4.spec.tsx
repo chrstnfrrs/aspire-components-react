@@ -55,7 +55,15 @@ describe('<AH4 />', () => {
     let as: TypographySelectors.HeadingAs;
 
     beforeEach(() => {
-      as = chance.pickone(['h1', 'h2', 'h3', 'h5', 'h6']);
+      as = chance.pickone([
+        'h1',
+        'h2',
+        'h3',
+        'h5',
+        'h6',
+        'subtitle-1',
+        'subtitle-2',
+      ]);
       RTL.render(
         <AH4 as={as} data-testid={testid}>
           {text}

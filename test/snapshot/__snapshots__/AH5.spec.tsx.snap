@@ -154,6 +154,22 @@ exports[`Given AH5 component is used When rendering AH5 with as set to "h6" Then
 </h5>
 `;
 
+exports[`Given AH5 component is used When rendering AH5 with as set to "subtitle-1" Then the component should render as expected 1`] = `
+<h5
+  className="a-subtitle-1"
+>
+  AH5
+</h5>
+`;
+
+exports[`Given AH5 component is used When rendering AH5 with as set to "subtitle-2" Then the component should render as expected 1`] = `
+<h5
+  className="a-subtitle-2"
+>
+  AH5
+</h5>
+`;
+
 exports[`Given AH5 component is used When rendering AH5 with type set to "h1" Then the component should render as expected 1`] = `
 <h1
   className="a-h5"
