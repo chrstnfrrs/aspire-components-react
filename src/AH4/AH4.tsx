@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import * as HeadingSelectors from '../typography/heading-selectors';
-import '../typography/headings.scss';
+import '../typography/heading.scss';
 
 const AH4: React.FC<HeadingSelectors.IHeading> = ({
   as,
