@@ -7,6 +7,7 @@ import { AForm } from './AForm/AForm';
 import { AGrid } from './AGrid/AGrid';
 import { AH1 } from './AH1/AH1';
 import { AH2 } from './AH2/AH2';
+import { AH3 } from './AH3/AH3';
 import { AInput } from './AInput/AInput';
 import { ALabel } from './ALabel/ALabel';
 import { ANav } from './ANav/ANav';
@@ -28,6 +29,7 @@ export {
   AGrid,
   AH1,
   AH2,
+  AH3,
   AInput,
   ALabel,
   ANav,
