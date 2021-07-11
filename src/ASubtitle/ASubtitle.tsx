@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import * as TypographySelectors from '../typography/heading-selectors';
+import * as HeadingSelectors from '../typography/heading-selectors';
 import '../typography/headings.scss';
 
-const ASubtitle: React.FC<TypographySelectors.IHeading> = ({
+const ASubtitle: React.FC<HeadingSelectors.IHeading> = ({
   as,
   'data-testid': testid,
   type,
@@ -16,9 +16,7 @@ const ASubtitle: React.FC<TypographySelectors.IHeading> = ({
     type: type || 'strong',
   };
 
-  const { Component, className } = TypographySelectors.getElement(
-    componentProps,
-  );
+  const { Component, className } = HeadingSelectors.getElement(componentProps);
 
   return (
     <Component className={className} data-testid={testid}>

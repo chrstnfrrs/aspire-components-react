@@ -4,14 +4,12 @@ import '@testing-library/jest-dom';
 import Chance from 'chance';
 
 import { AH1 } from '../../src/AH1/AH1';
-import * as TypographySelectors from '../../src/typography/heading-selectors';
+import * as HeadingSelectors from '../../src/typography/heading-selectors';
 
 jest.mock('../../src/typography/heading-selectors');
 
 const chance = new Chance();
-const { getElement } = TypographySelectors as jest.Mocked<
-  typeof TypographySelectors
->;
+const { getElement } = HeadingSelectors as jest.Mocked<typeof HeadingSelectors>;
 
 describe('<AH1 />', () => {
   let text: string, testid: string;
@@ -52,7 +50,7 @@ describe('<AH1 />', () => {
     });
   });
   describe('when as is passed in props', () => {
-    let as: TypographySelectors.HeadingAs;
+    let as: HeadingSelectors.HeadingAs;
 
     beforeEach(() => {
       as = chance.pickone([
@@ -87,7 +85,7 @@ describe('<AH1 />', () => {
     });
   });
   describe('when type is passed in props', () => {
-    let type: TypographySelectors.HeadingType;
+    let type: HeadingSelectors.HeadingType;
 
     beforeEach(() => {
       type = chance.pickone(['h2', 'h3', 'h4', 'h5', 'h6', 'strong']);
