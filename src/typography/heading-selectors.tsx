@@ -2,7 +2,7 @@ import * as React from 'react';
 import clsx from 'clsx';
 import { setFontSize } from 'aspire-components-functions';
 
-import * as Types from '../types.d';
+import * as Types from '../types';
 
 type HeadingType = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'strong';
 type HeadingAs = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';

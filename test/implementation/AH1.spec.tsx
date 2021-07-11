@@ -4,9 +4,9 @@ import '@testing-library/jest-dom';
 import Chance from 'chance';
 
 import { AH1 } from '../../src/AH1/AH1';
-import * as TypographySelectors from '../../src/selectors/typography-selectors';
+import * as TypographySelectors from '../../src/typography/heading-selectors';
 
-jest.mock('../../src/selectors/typography-selectors');
+jest.mock('../../src/typography/heading-selectors');
 
 const chance = new Chance();
 const { getElement } = TypographySelectors as jest.Mocked<
