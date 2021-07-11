@@ -7,6 +7,7 @@ import * as AFormFile from '../../src/AForm/AForm';
 import * as AGridFile from '../../src/AGrid/AGrid';
 import * as AH1File from '../../src/AH1/AH1';
 import * as AH2File from '../../src/AH2/AH2';
+import * as AH3File from '../../src/AH3/AH3';
 import * as AInputFile from '../../src/AInput/AInput';
 import * as ALabelFile from '../../src/ALabel/ALabel';
 import * as ANavFile from '../../src/ANav/ANav';
@@ -25,6 +26,7 @@ jest.mock('../../src/AForm/AForm');
 jest.mock('../../src/AGrid/AGrid');
 jest.mock('../../src/AH1/AH1');
 jest.mock('../../src/AH2/AH2');
+jest.mock('../../src/AH3/AH3');
 jest.mock('../../src/AInput/AInput');
 jest.mock('../../src/ALabel/ALabel');
 jest.mock('../../src/ANav/ANav');
@@ -42,6 +44,7 @@ const { AForm } = AFormFile as jest.Mocked<typeof AFormFile>;
 const { AGrid } = AGridFile as jest.Mocked<typeof AGridFile>;
 const { AH1 } = AH1File as jest.Mocked<typeof AH1File>;
 const { AH2 } = AH2File as jest.Mocked<typeof AH2File>;
+const { AH3 } = AH3File as jest.Mocked<typeof AH3File>;
 const { AInput } = AInputFile as jest.Mocked<typeof AInputFile>;
 const { ALabel } = ALabelFile as jest.Mocked<typeof ALabelFile>;
 const { ANav } = ANavFile as jest.Mocked<typeof ANavFile>;
@@ -62,6 +65,7 @@ describe('Given aspire-components-react', () => {
       AGrid,
       AH1,
       AH2,
+      AH3,
       AInput,
       ALabel,
       ANav,
