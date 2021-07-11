@@ -10,6 +10,7 @@ import { AH2 } from './AH2/AH2';
 import { AH3 } from './AH3/AH3';
 import { AH4 } from './AH4/AH4';
 import { AH5 } from './AH5/AH5';
+import { AH6 } from './AH6/AH6';
 import { AInput } from './AInput/AInput';
 import { ALabel } from './ALabel/ALabel';
 import { ANav } from './ANav/ANav';
@@ -34,6 +35,7 @@ export {
   AH3,
   AH4,
   AH5,
+  AH6,
   AInput,
   ALabel,
   ANav,
