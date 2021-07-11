@@ -1,6 +1,7 @@
 import * as React from 'react';
 
-import * as TypographySelectors from '../selectors/typography-selectors';
+import * as TypographySelectors from '../typography/heading-selectors';
+import '../typography/headings.scss';
 
 const AH1: React.FC<TypographySelectors.IHeading> = ({
   as,
