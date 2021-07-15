@@ -1,0 +1,73 @@
+@mixin body {
+  color: var(--A-color);
+}
+
+strong {
+  &.a-body-1 {
+    font-weight: bold;
+  }
+  &.a-body-2 {
+    font-weight: bold;
+  }
+  &.a-button-text {
+    font-weight: bold;
+  }
+  &.a-caption {
+    font-weight: bold;
+  }
+  &.a-overline {
+    font-weight: bold;
+  }
+}
+
+.a-body-1 {
+  @include body;
+  --A-body-1-font-size: 1rem;
+  --A-body-1-font-weight: 400;
+  --A-body-1-letter-spacing: 0.5px;
+  font-size: var(--A-body-1-font-size);
+  font-weight: var(--A-body-1-font-weight);
+  letter-spacing: var(--A-body-1-letter-spacing);
+}
+
+.a-body-2 {
+  @include body;
+  --A-body-2-font-size: 0.875rem;
+  --A-body-2-font-weight: 400;
+  --A-body-2-letter-spacing: 0.25px;
+  font-size: var(--A-body-2-font-size);
+  font-weight: var(--A-body-2-font-weight);
+  letter-spacing: var(--A-body-2-letter-spacing);
+}
+
+.a-button-text {
+  @include body;
+  --A-button-text-font-size: 0.875rem;
+  --A-button-text-font-weight: 500;
+  --A-button-text-letter-spacing: 1.25px;
+  font-size: var(--A-button-text-font-size);
+  font-weight: var(--A-button-text-font-weight);
+  letter-spacing: var(--A-button-text-letter-spacing);
+  text-transform: capitalize;
+}
+
+.a-caption {
+  @include body;
+  --A-caption-font-size: 0.75rem;
+  --A-caption-font-weight: 400;
+  --A-caption-letter-spacing: 0.4px;
+  font-size: var(--A-caption-font-size);
+  font-weight: var(--A-caption-font-weight);
+  letter-spacing: var(--A-caption-letter-spacing);
+}
+
+.a-overline {
+  @include body;
+  --A-overline-font-size: 0.625rem;
+  --A-overline-font-weight: 400;
+  --A-overline-letter-spacing: 1.5px;
+  font-size: var(--A-overline-font-size);
+  font-weight: var(--A-overline-font-weight);
+  letter-spacing: var(--A-overline-letter-spacing);
+  text-transform: capitalize;
+}
