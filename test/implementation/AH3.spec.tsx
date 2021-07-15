@@ -4,14 +4,12 @@ import '@testing-library/jest-dom';
 import Chance from 'chance';
 
 import { AH3 } from '../../src/AH3/AH3';
-import * as TypographySelectors from '../../src/typography/heading-selectors';
+import * as HeadingSelectors from '../../src/typography/heading-selectors';
 
 jest.mock('../../src/typography/heading-selectors');
 
 const chance = new Chance();
-const { getElement } = TypographySelectors as jest.Mocked<
-  typeof TypographySelectors
->;
+const { getElement } = HeadingSelectors as jest.Mocked<typeof HeadingSelectors>;
 
 describe('<AH3 />', () => {
   let text: string, testid: string;
@@ -23,7 +21,6 @@ describe('<AH3 />', () => {
     // @ts-ignore
     getElement.mockReturnValue({
       className: chance.string(),
-      // eslint-disable-next-line react/display-name
       Component: (props) => (
         <p data-testid={props['data-testid']}>{props.children}</p>
       ),
@@ -52,7 +49,7 @@ describe('<AH3 />', () => {
     });
   });
   describe('when as is passed in props', () => {
-    let as: TypographySelectors.HeadingAs;
+    let as: HeadingSelectors.HeadingAs;
 
     beforeEach(() => {
       as = chance.pickone([
@@ -87,7 +84,7 @@ describe('<AH3 />', () => {
     });
   });
   describe('when type is passed in props', () => {
-    let type: TypographySelectors.HeadingType;
+    let type: HeadingSelectors.HeadingType;
 
     beforeEach(() => {
       type = chance.pickone(['h1', 'h2', 'h4', 'h5', 'h6', 'strong']);

@@ -4,7 +4,7 @@ import '@testing-library/jest-dom';
 import Chance from 'chance';
 import * as ACF from 'aspire-components-functions';
 
-import * as TypographySelectors from '../../../src/typography/heading-selectors';
+import * as HeadingSelectors from '../../../src/typography/heading-selectors';
 import * as Types from '../../../src/types';
 
 jest.mock('aspire-components-functions');
@@ -30,7 +30,7 @@ describe('Given the need to select a field for a typography component', () => {
       let result: RTL.RenderResult;
 
       beforeEach(() => {
-        const { Component } = TypographySelectors.getElement({
+        const { Component } = HeadingSelectors.getElement({
           ...props,
           type: 'h1',
         });
@@ -49,7 +49,7 @@ describe('Given the need to select a field for a typography component', () => {
       let result: RTL.RenderResult;
 
       beforeEach(() => {
-        const { Component } = TypographySelectors.getElement({
+        const { Component } = HeadingSelectors.getElement({
           ...props,
           type: 'h2',
         });
@@ -68,7 +68,7 @@ describe('Given the need to select a field for a typography component', () => {
       let result: RTL.RenderResult;
 
       beforeEach(() => {
-        const { Component } = TypographySelectors.getElement({
+        const { Component } = HeadingSelectors.getElement({
           ...props,
           type: 'h3',
         });
@@ -87,7 +87,7 @@ describe('Given the need to select a field for a typography component', () => {
       let result: RTL.RenderResult;
 
       beforeEach(() => {
-        const { Component } = TypographySelectors.getElement({
+        const { Component } = HeadingSelectors.getElement({
           ...props,
           type: 'h4',
         });
@@ -106,7 +106,7 @@ describe('Given the need to select a field for a typography component', () => {
       let result: RTL.RenderResult;
 
       beforeEach(() => {
-        const { Component } = TypographySelectors.getElement({
+        const { Component } = HeadingSelectors.getElement({
           ...props,
           type: 'h5',
         });
@@ -125,7 +125,7 @@ describe('Given the need to select a field for a typography component', () => {
       let result: RTL.RenderResult;
 
       beforeEach(() => {
-        const { Component } = TypographySelectors.getElement({
+        const { Component } = HeadingSelectors.getElement({
           ...props,
           type: 'h6',
         });
@@ -144,7 +144,7 @@ describe('Given the need to select a field for a typography component', () => {
       let result: RTL.RenderResult;
 
       beforeEach(() => {
-        const { Component } = TypographySelectors.getElement({
+        const { Component } = HeadingSelectors.getElement({
           ...props,
           type: 'strong',
         });

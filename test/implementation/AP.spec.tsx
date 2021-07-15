@@ -3,15 +3,15 @@ import * as RTL from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Chance from 'chance';
 
-import { ASubtitle } from '../../src/ASubtitle/ASubtitle';
-import * as HeadingSelectors from '../../src/typography/heading-selectors';
+import { AP } from '../../src/AP/AP';
+import * as BodySelectors from '../../src/typography/body-selectors';
 
-jest.mock('../../src/typography/heading-selectors');
+jest.mock('../../src/typography/body-selectors');
 
 const chance = new Chance();
-const { getElement } = HeadingSelectors as jest.Mocked<typeof HeadingSelectors>;
+const { getElement } = BodySelectors as jest.Mocked<typeof BodySelectors>;
 
-describe('<ASubtitle />', () => {
+describe('<AP />', () => {
   let text: string, testid: string;
 
   beforeEach(() => {
@@ -30,15 +30,14 @@ describe('<ASubtitle />', () => {
   afterEach(jest.resetAllMocks);
   describe('easy path', () => {
     beforeEach(() => {
-      RTL.render(<ASubtitle data-testid={testid}>{text}</ASubtitle>);
+      RTL.render(<AP data-testid={testid}>{text}</AP>);
     });
     test('should get element', () => {
       expect(getElement).toHaveBeenCalledTimes(1);
       expect(getElement).toHaveBeenCalledWith({
-        as: 'subtitle-1',
         children: text,
         'data-testid': testid,
-        type: 'strong',
+        type: 'p',
       });
     });
     test('should be able to find by children', () => {
@@ -49,22 +48,14 @@ describe('<ASubtitle />', () => {
     });
   });
   describe('when as is passed in props', () => {
-    let as: HeadingSelectors.HeadingAs;
+    let as: BodySelectors.BodyAs;
 
     beforeEach(() => {
-      as = chance.pickone([
-        'h1',
-        'h2',
-        'h3',
-        'h4',
-        'h5',
-        'subtitle-1',
-        'subtitle-2',
-      ]);
+      as = chance.pickone(['body-1', 'body-2']);
       RTL.render(
-        <ASubtitle as={as} data-testid={testid}>
+        <AP as={as} data-testid={testid}>
           {text}
-        </ASubtitle>,
+        </AP>,
       );
     });
     test('should get element', () => {
@@ -73,7 +64,7 @@ describe('<ASubtitle />', () => {
         as,
         children: text,
         'data-testid': testid,
-        type: 'strong',
+        type: 'p',
       });
     });
     test('should be able to find by children', () => {
@@ -84,20 +75,19 @@ describe('<ASubtitle />', () => {
     });
   });
   describe('when type is passed in props', () => {
-    let type: HeadingSelectors.HeadingType;
+    let type: BodySelectors.BodyType;
 
     beforeEach(() => {
-      type = chance.pickone(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']);
+      type = chance.pickone(['span', 'em', 'strong']);
       RTL.render(
-        <ASubtitle data-testid={testid} type={type}>
+        <AP data-testid={testid} type={type}>
           {text}
-        </ASubtitle>,
+        </AP>,
       );
     });
     test('should get element', () => {
       expect(getElement).toHaveBeenCalledTimes(1);
       expect(getElement).toHaveBeenCalledWith({
-        as: 'subtitle-1',
         children: text,
         'data-testid': testid,
         type,

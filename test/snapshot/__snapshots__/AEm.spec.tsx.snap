@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given AEm component is used When a developer uses AEm with a className Then the the class should be present 1`] = `
+<em
+  className="asdf"
+>
+  AEm
+</em>
+`;
+
+exports[`Given AEm component is used When a developer uses AEm with no props Then the only class should be a-container 1`] = `
+<em
+  className=""
+>
+  AEm
+</em>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 2xl Then the class fontSize-2xl should be used 1`] = `
+<em
+  className="fontSize-2xl"
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 3xl Then the class fontSize-3xl should be used 1`] = `
+<em
+  className="fontSize-3xl"
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 4xl Then the class fontSize-4xl should be used 1`] = `
+<em
+  className="fontSize-4xl"
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 5xl Then the class fontSize-5xl should be used 1`] = `
+<em
+  className="fontSize-5xl"
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 6xl Then the class fontSize-6xl should be used 1`] = `
+<em
+  className="fontSize-6xl"
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 7xl Then the class fontSize-7xl should be used 1`] = `
+<em
+  className="fontSize-7xl"
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 8xl Then the class fontSize-8xl should be used 1`] = `
+<em
+  className="fontSize-8xl"
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 9xl Then the class fontSize-9xl should be used 1`] = `
+<em
+  className="fontSize-9xl"
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in an invalid value Then no fontSize class should be used 1`] = `
+<em
+  className=""
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in base Then the class fontSize-base should be used 1`] = `
+<em
+  className="fontSize-base"
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in lg Then the class fontSize-lg should be used 1`] = `
+<em
+  className="fontSize-lg"
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in sm Then the class fontSize-sm should be used 1`] = `
+<em
+  className="fontSize-sm"
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in undefined Then no fontSize class should be used 1`] = `
+<em
+  className=""
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in xl Then the class fontSize-xl should be used 1`] = `
+<em
+  className="fontSize-xl"
+/>
+`;
+
+exports[`Given AEm component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in xs Then the class fontSize-xs should be used 1`] = `
+<em
+  className="fontSize-xs"
+/>
+`;
+
+exports[`Given AEm component is used When rendering AEm with as set to "body-1" Then the component should render as expected 1`] = `
+<em
+  className="a-body-1"
+>
+  AEm
+</em>
+`;
+
+exports[`Given AEm component is used When rendering AEm with as set to "body-2" Then the component should render as expected 1`] = `
+<em
+  className="a-body-2"
+>
+  AEm
+</em>
+`;
+
+exports[`Given AEm component is used When rendering AEm with as set to "button-text" Then the component should render as expected 1`] = `
+<em
+  className="a-button-text"
+>
+  AEm
+</em>
+`;
+
+exports[`Given AEm component is used When rendering AEm with as set to "caption" Then the component should render as expected 1`] = `
+<em
+  className="a-caption"
+>
+  AEm
+</em>
+`;
+
+exports[`Given AEm component is used When rendering AEm with as set to "overline" Then the component should render as expected 1`] = `
+<em
+  className="a-overline"
+>
+  AEm
+</em>
+`;
+
+exports[`Given AEm component is used When rendering AEm with type set to "em" Then the component should render as expected 1`] = `
+<em
+  className=""
+>
+  AEm
+</em>
+`;
+
+exports[`Given AEm component is used When rendering AEm with type set to "p" Then the component should render as expected 1`] = `
+<p
+  className=""
+>
+  AEm
+</p>
+`;
+
+exports[`Given AEm component is used When rendering AEm with type set to "span" Then the component should render as expected 1`] = `
+<span
+  className=""
+>
+  AEm
+</span>
+`;
+
+exports[`Given AEm component is used When rendering AEm with type set to "strong" Then the component should render as expected 1`] = `
+<strong
+  className=""
+>
+  AEm
+</strong>
+`;

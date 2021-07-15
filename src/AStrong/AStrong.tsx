@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import * as HeadingSelectors from '../typography/heading-selectors';
-import '../typography/heading.scss';
+import * as BodySelectors from '../typography/body-selectors';
+import '../typography/body.scss';
 
-const ASubtitle: React.FC<HeadingSelectors.IHeading> = ({
+const AStrong: React.FC<BodySelectors.IBody> = ({
   as,
   'data-testid': testid,
   type,
@@ -11,12 +11,12 @@ const ASubtitle: React.FC<HeadingSelectors.IHeading> = ({
 }) => {
   const componentProps = {
     ...props,
-    as: as || 'subtitle-1',
+    as,
     'data-testid': testid,
     type: type || 'strong',
   };
 
-  const { Component, className } = HeadingSelectors.getElement(componentProps);
+  const { Component, className } = BodySelectors.getElement(componentProps);
 
   return (
     <Component className={className} data-testid={testid}>
@@ -25,4 +25,4 @@ const ASubtitle: React.FC<HeadingSelectors.IHeading> = ({
   );
 };
 
-export { ASubtitle };
+export { AStrong };
