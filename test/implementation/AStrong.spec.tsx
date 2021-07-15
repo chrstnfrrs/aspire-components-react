@@ -6,7 +6,7 @@ import Chance from 'chance';
 import { AStrong } from '../../src/AStrong/AStrong';
 import * as BodySelectors from '../../src/typography/body-selectors';
 
-jest.mock('../../src/typography/Body-selectors');
+jest.mock('../../src/typography/body-selectors');
 
 const chance = new Chance();
 const { getElement } = BodySelectors as jest.Mocked<typeof BodySelectors>;
