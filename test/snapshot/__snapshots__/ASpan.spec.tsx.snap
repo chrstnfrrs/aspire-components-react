@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given ASpan component is used When a developer uses ASpan with a className Then the the class should be present 1`] = `
+<span
+  className="asdf"
+>
+  ASpan
+</span>
+`;
+
+exports[`Given ASpan component is used When a developer uses ASpan with no props Then the only class should be a-container 1`] = `
+<span
+  className=""
+>
+  ASpan
+</span>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 2xl Then the class fontSize-2xl should be used 1`] = `
+<span
+  className="fontSize-2xl"
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 3xl Then the class fontSize-3xl should be used 1`] = `
+<span
+  className="fontSize-3xl"
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 4xl Then the class fontSize-4xl should be used 1`] = `
+<span
+  className="fontSize-4xl"
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 5xl Then the class fontSize-5xl should be used 1`] = `
+<span
+  className="fontSize-5xl"
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 6xl Then the class fontSize-6xl should be used 1`] = `
+<span
+  className="fontSize-6xl"
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 7xl Then the class fontSize-7xl should be used 1`] = `
+<span
+  className="fontSize-7xl"
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 8xl Then the class fontSize-8xl should be used 1`] = `
+<span
+  className="fontSize-8xl"
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in 9xl Then the class fontSize-9xl should be used 1`] = `
+<span
+  className="fontSize-9xl"
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in an invalid value Then no fontSize class should be used 1`] = `
+<span
+  className=""
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in base Then the class fontSize-base should be used 1`] = `
+<span
+  className="fontSize-base"
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in lg Then the class fontSize-lg should be used 1`] = `
+<span
+  className="fontSize-lg"
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in sm Then the class fontSize-sm should be used 1`] = `
+<span
+  className="fontSize-sm"
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in undefined Then no fontSize class should be used 1`] = `
+<span
+  className=""
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in xl Then the class fontSize-xl should be used 1`] = `
+<span
+  className="fontSize-xl"
+/>
+`;
+
+exports[`Given ASpan component is used When a developer uses a factory prop type When a developer uses the fontSize prop When a developer passes in xs Then the class fontSize-xs should be used 1`] = `
+<span
+  className="fontSize-xs"
+/>
+`;
+
+exports[`Given ASpan component is used When rendering ASpan with as set to "body-1" Then the component should render as expected 1`] = `
+<span
+  className="a-body-1"
+>
+  ASpan
+</span>
+`;
+
+exports[`Given ASpan component is used When rendering ASpan with as set to "body-2" Then the component should render as expected 1`] = `
+<span
+  className="a-body-2"
+>
+  ASpan
+</span>
+`;
+
+exports[`Given ASpan component is used When rendering ASpan with as set to "button-text" Then the component should render as expected 1`] = `
+<span
+  className="a-button-text"
+>
+  ASpan
+</span>
+`;
+
+exports[`Given ASpan component is used When rendering ASpan with as set to "caption" Then the component should render as expected 1`] = `
+<span
+  className="a-caption"
+>
+  ASpan
+</span>
+`;
+
+exports[`Given ASpan component is used When rendering ASpan with as set to "overline" Then the component should render as expected 1`] = `
+<span
+  className="a-overline"
+>
+  ASpan
+</span>
+`;
+
+exports[`Given ASpan component is used When rendering ASpan with type set to "em" Then the component should render as expected 1`] = `
+<em
+  className=""
+>
+  ASpan
+</em>
+`;
+
+exports[`Given ASpan component is used When rendering ASpan with type set to "p" Then the component should render as expected 1`] = `
+<p
+  className=""
+>
+  ASpan
+</p>
+`;
+
+exports[`Given ASpan component is used When rendering ASpan with type set to "span" Then the component should render as expected 1`] = `
+<span
+  className=""
+>
+  ASpan
+</span>
+`;
+
+exports[`Given ASpan component is used When rendering ASpan with type set to "strong" Then the component should render as expected 1`] = `
+<strong
+  className=""
+>
+  ASpan
+</strong>
+`;
