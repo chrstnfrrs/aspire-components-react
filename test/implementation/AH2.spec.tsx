@@ -21,7 +21,6 @@ describe('<AH2 />', () => {
     // @ts-ignore
     getElement.mockReturnValue({
       className: chance.string(),
-      // eslint-disable-next-line react/display-name
       Component: (props) => (
         <p data-testid={props['data-testid']}>{props.children}</p>
       ),
